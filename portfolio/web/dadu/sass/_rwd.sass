@@ -1,0 +1,2586 @@
+// ================= 依螢幕高度調整 ================= //
+
+// :::::::橫式中螢幕尺寸調整:::::::
+@media screen and (max-height: 900px),(max-width: 1600px)
+ // 本月之星縮小
+ #mon-star
+  width: 180px
+  right: 15px
+  bottom: 180px
+  &.scroll
+   transform: scale(0.9) translateY(-90px)
+  &:after
+   border-width: 10px 10px 0 10px
+  .close
+   width: 20px
+   height: 20px
+   top: -5px
+   right: -10px
+   i
+    font-size: 1rem
+  .title
+   padding: 5px
+   border-radius: 10px 10px 0 0
+   h5
+    font-size: 1.6rem
+    margin: 5px 0
+  .star-list
+   border-radius: 0 0 10px 10px
+   li
+    padding: 15px
+   .text
+    h5
+     font-size: 1.6rem
+     text-align: center
+    h6
+     display: none
+ 
+ // 右下浮動按鈕縮小
+ .float-btns
+  ul
+   li
+    margin-top: 0
+  #gotop
+   width: 90px
+  #go-subpage
+   a
+    width: 60px
+    h5
+     width: 30px
+     font-size: 1.4rem
+    .paper
+     top: 21%
+     left: -5%
+  #star-btn
+   a
+    width: 60px
+    img
+     width: 125%
+     margin-left: -5%
+    h5
+     width: 30px
+     font-size: 1.4rem
+ 
+ // 選單高度縮小
+ #menu
+  height: 100px
+  .menu-box
+   #menu-logo
+    max-width: 80%
+  &.scroll
+   height: 80px
+   .menu-box
+    #menu-logo
+     max-width: 70%
+
+ // 選單字縮小
+ #menu,#menu.scroll
+  nav #menu-main-list>li>a
+   margin: 0 10px
+   padding: 10px
+   >i
+    font-size: 2.4rem
+ //選單下拉選單尺寸調整，按鈕字縮小
+ #menu
+  .drop-menu
+   >li>a
+    font-size: 1.6rem
+    font-weight: 700
+  #menu-btn-list
+   padding: 10px 10px 10px 0
+   >li
+    >a
+     padding: 10px 8px 10px 8px
+     margin: 0 5px
+     p
+      font-size: 1.2rem
+     >i
+      font-size: 2.4rem
+ 
+ .banner-box,.inner-page
+  padding-top: 100px
+ .inner-page.article-page
+  .article-page-top
+   height: 100px
+
+ body
+  h1,h2
+   font-size: 2.6rem
+  h3
+   font-size: 2.4rem
+  h4
+   font-size: 2.2rem
+  h5,p,input,textarea,select,option,button
+   font-size: 1.8rem
+  h6
+   font-size: 1.6rem
+ #footer .box2 ul.list li a
+  font-size: 1.6rem
+ .w1440
+  padding: 0 100px
+ .all-btn
+  font-size: 1.8rem
+ .inner-page .title-box
+  margin: 30px auto
+ .title-box>img
+  height: 75px
+ .idx-about
+  .main
+   justify-content: center
+   padding-bottom: 300px
+   >img
+    width: 20%
+   .text
+    width: 60%
+    h1
+     font-size: 2.6rem
+    img.sep-line
+     margin: 20px 0
+     width: 90%
+    p
+     margin-bottom: 20px
+ .idx-news
+  .main
+   padding-bottom: 200px
+ .idx-submission
+  .main
+   padding-bottom: 300px
+ .idx-article
+  .main
+   padding-bottom: 300px
+   .box-list 
+    li:nth-child(1) 
+     a.content
+      height: calc(100% - 5rem)
+     ~ li a .tag
+      margin: 0 -15px
+ .submission .box-list.top li a.content .intro .text h5
+  font-size: 2.4rem
+ .box-list
+  li
+   a
+    padding: 15px
+    .tag
+     margin: 15px -15px 0 -15px
+     p
+      font-size: 1.2rem
+    .text
+     h6
+      max-height: 6.4rem
+   a.content
+    height: calc(100% - 5rem)
+   
+   .btn
+    font-size: 1.5rem
+    height: 5rem
+ .submission.article-page
+  .submission-btn-box
+   right: 100%
+   li a
+    padding: 20px 10px 20px 15px
+
+ //   position: fixed
+ //   left: 0
+ //   top: 50%
+ //   transform: translateY(-50%)
+ //   li 
+ //    a
+ //     border-radius: 0 10px 10px 0
+ //     &[data-color="white"]
+ //      width: auto
+ //      margin-left: -2px
+ 
+
+  
+ // 首頁訊息放送尺寸調整
+ .idx-news
+  .main
+   .title-box
+    width: 100%
+   .box-list
+    height: auto
+    top: -20%
+
+ .text-title-list
+  li
+   a.date
+    padding: 5px
+ //首頁深入了解 切換按鈕尺寸調整
+ .cate-btn
+  margin: 0
+  li
+   a
+    font-size: 1.6rem
+ .keyword-box
+  h3
+   padding: 10px
+ .btn-block-inline
+  margin-top: 10px
+ .all-basic-btn
+  font-size: 1.8rem
+ .form-box-style2
+  border-radius: 10px
+  .form-content
+   padding: 20px
+  .item-box
+   padding-bottom: 10px
+   margin-bottom: 10px
+   border-bottom: 1px dashed $bg-l-green
+ .inner-page.about-page article .article-box
+  padding: 10px
+ .box-list.guide li a.content 
+  .tag
+   margin-top: -35px
+  .text
+   margin-top: 15px
+// :::::::橫式螢幕，右下按鈕&本月之星尺寸調整:::::::
+@media screen and (max-height: 700px)  and (orientation:landscape) 
+ // 右下按鈕&本月之星尺寸調整
+ #mon-star
+  bottom: 150px
+  transform: scale(0.8)
+  &.scroll
+   transform: scale(0.8) translateY(-80px)
+ .float-btns
+  #star-btn
+   a
+    width: 45px
+    h5
+     transform: scale(0.7) translate(-70%, -70%)
+  #go-subpage
+   a
+    width: 45px
+    padding-bottom: 80%
+    h5
+     transform: scale(0.7) translate(-80%, -80%)
+  #gotop
+   a
+    padding-bottom: 80%
+    width: 70px 
+
+// :::::::橫式螢幕，右下按鈕&本月之星尺寸調整:::::::
+@media screen and (max-height: 550px), (max-width: 1100px) and (orientation:landscape)
+ // 主選單高度縮小
+ #menu
+  height: 80px
+  .menu-box
+   width: 15%
+ .banner-box, .inner-page
+  padding-top: 80px
+ .inner-page.article-page
+  .article-page-top
+   height: 80px
+ // .article-page
+ //  padding-top: 0
+ // 本月之星尺寸調整
+ #mon-star
+  bottom: 150px
+  transform: scale(0.7)
+  &.scroll
+   transform: scale(0.7) translateY(-80px)
+
+ 
+// ================= 依螢幕寬度調整 ================= //
+// ================= 寬 1300 內 ================= //
+@media screen and (max-width: 1300px)
+ // 文章分享按鈕樣式&位置調整
+ .share-btn-box
+  left: 0
+  &.fixed
+   left: -52px
+   bottom: 150px
+  ul
+   li
+    a
+     width: 40px
+     margin: 0 5px 5px 5px
+     padding: 10px 3px
+     // border-radius: 5px
+     i
+      font-size: 1.8rem
+      margin-bottom: 5px
+     p
+      font-size: 1rem
+
+ #menu,#menu.scroll
+  nav #menu-main-list>li>a    
+   padding: 10px 5px
+ 
+ .title-box
+  margin: 30px auto
+  >img
+   height: 60px
+ 
+ 
+// ================= 寬 1024 內 ================= //
+@media screen and (max-width: 1024px)
+ .w1600,.w1440,.w1300,.w1200,.w800
+  padding: 0 40px
+ .all-big-btn
+  padding: 20px
+  font-size: 2.6rem
+  margin: 10px 0
+  max-width: 100%
+ // 主選單
+ #menu
+  nav
+   #menu-main-list
+    >li
+     >a
+      padding: 20px 10px
+ .banner-box,.inner-page
+  padding-top: 80px
+ .inner-page.article-page
+  .article-page-top
+   height: 80px
+ #menu
+  height: 80px
+  //------v 選單展開 v------
+  &.active
+   #menu-btn-list
+    #menu-btn
+     background: $orange
+     &:after
+      top: 100%
+      opacity: 1
+      +triangleDown($orange,8px,8px)
+     ul
+      li
+       background: #ffffff
+       &:nth-child(1)
+        transform: rotate(-45deg) translate(-7px,7px)
+       &:nth-child(2)
+        opacity: 0
+       &:nth-child(3)
+        transform: rotate(45deg) translate(-4px,-4px)
+   nav
+    top: 100%
+    opacity: 1
+    pointer-events: auto
+  //------^ 選單展開 ^------
+  
+  .menu-bg
+   display: block
+   width: 100%
+   height: 100vh
+   background-color: #fbf6f1
+   position: fixed
+   top: 0
+   left: 0
+   opacity: 0
+   pointer-events: none
+   +transition
+   z-index: -1
+   &.active
+    opacity: 0.8
+    pointer-events: auto
+
+    
+  .menu-box
+   width: 100%
+   background-color: #ffffff
+   #menu-logo
+    width: 22%
+    img.logo-bg
+     width: 120%
+     left: -20%
+     top: -10%
+    a
+     img:first-child
+      left: 10%
+     img:last-child
+      width: 60%
+      top: 6%
+      left: 52%
+
+  //主選單
+  nav
+   position: absolute
+   // min-width: 290px
+   width: 40%
+   max-height: 80vh
+   padding: 10px 20px
+   +border-radius()
+   overflow-y: auto
+   background-color: #ffffff
+   border: 2px solid $bg-orange
+   max-height: calc(100vh - 100px)
+   // z-index: -1
+   opacity: 0
+   right: 15px
+   top: 0
+   pointer-events: none
+   
+   +transition
+   #menu-main-list
+    display: block
+    >li
+     width: 100%
+     position: relative
+     border-bottom: 2px solid $bg-orange
+     text-align: left
+     &:last-child
+      border-bottom: none
+     //行動版清除hover樣式
+     &:hover
+      >a
+       color: $brown
+       >i
+        color: $orange
+        transform: none
+     //有下拉選單
+     &.more
+      i.icon-arrow-down
+       display: inline
+       position: absolute
+       content: '\e91a'
+       font-family: 'icomoon'
+       color: $orange
+       font-size: 2rem
+       width: auto
+       height: auto
+       right: 0
+       top: 12px
+       padding: 15px
+       cursor: pointer
+       +transition
+      //下拉選單展開
+      &.active
+       >a
+        color: $orange
+        >i
+         transform: scale(1.1)
+       i.icon-arrow-down
+        transform: rotate(-180deg)
+       .drop-menu
+        margin: 0 auto 20px auto
+     >a
+      display: inline-flex
+      align-items: center
+      justify-content: center
+      // margin: 10px
+      p
+       font-size: 2rem
+      >i
+       margin: 0 10px 0 0
+      &:after
+       display: none
+     >i.icon-arrow-down
+      display: block
+    .drop-menu
+     position: relative
+     display: none
+     width: 90%
+     margin: 0 auto
+     transform: none
+     top: auto
+     left: auto
+     opacity: 1
+     pointer-events: auto
+     transition: none
+     border: none
+     text-align: left
+     padding: 0
+     &:after
+      display: none
+     >li
+      >a
+       display: block
+       background: rgba($bg-y-orange,0.5)
+       margin-bottom: 10px
+      
+ 
+
+  
+  //右上按鈕
+  #menu-btn-list
+   position: absolute
+   right: 0
+   padding: 10px
+   +transition
+   >li>a
+    display: flex
+    height: 50px
+    justify-content: center
+    align-items: center
+    padding: 0 30px
+    margin: 0 5px
+    &[data-color]
+     border: 2px solid #ffffff!important
+    p
+     font-size: 1.8rem
+     span
+      display: none
+    i
+     font-size: 2rem
+     margin-bottom: 0
+     margin-right: 5px
+   #menu-btn
+    display: flex
+    padding: 0 15px
+    &.active
+     ul
+      padding-bottom: 5px
+    &:after
+     +triangleDown($orange,0,0)
+     top: 90%
+     opacity: 0
+     +transition
+ 
+ //主選單搜尋框
+ #menu .menu-list >li
+  position: static
+  &:hover
+   .drop-menu
+    opacity: 0
+    pointer-events: none
+    top: 80%
+    
+ #menu #menu-btn-list
+  >li.search
+   .close
+    display: block
+   .drop-menu
+    width: 300px
+    left: auto
+    right: -100px
+    transform: none
+    width: calc(100vw - 30px)
+    right: 15px
+    &:after
+     left: 55%
+
+
+  >li.member
+   .drop-menu
+    width: 200px
+    left: auto
+    right: 0
+    padding: 0 10px
+    transform: none
+    width: calc(100vw - 30px)
+    right: 15px
+    >li
+     border-bottom: 2px solid $bg-l-green
+     >a
+      font-weight: bold
+      display: block
+      border-radius: 0
+      font-size: 1.8rem
+      padding: 20px
+     &:last-child
+      border-bottom: none
+    &:after
+     display: none
+  
+  >li.home
+   display: none
+    
+  >li
+   &.active
+    .drop-menu
+     opacity: 1
+     pointer-events: auto
+     top: 100%
+    >a
+     color: #ffffff
+     &[data-color="orange"]
+      background-color: $orange
+     &[data-color="green"]
+      background-color: $green
+   &:hover
+    >a[data-color]
+     border: 2px slid #ffffff
+    
+    
+ // ====================== //
+ //插畫背景與動畫 
+ //首頁-關於 idx-about : 首頁聚落+亨德放映
+ .bgpic-box.view1
+  .bg
+   padding-bottom: 50%
+   background-image: url(../img/idx/bg1-m.png)
+   .movie
+    width: 30%
+    padding-bottom: 30%
+    right: 8%
+    bottom: 30%
+   .smoke-box.right
+    left: 22%
+    bottom: 60%
+   .smoke-box.left
+    left: 15%
+    bottom: 68%
+ .bgpic-box.view2
+  .bg
+   padding-bottom: 35.5%
+   background-image: url(../img/idx/bg2-m.png)
+   .well
+    width: 24%
+    padding-bottom: 24%
+    bottom: 30%
+    left: 1%
+ .bgpic-box.view3
+  .bg
+   padding-bottom: 35.5%
+   background-image: url(../img/idx/bg3-m.png)
+   .farmer
+    left: 6%
+    width: 12%
+    padding-bottom: 12%
+   .cow
+    bottom: 1%
+    right: 2%
+    width: 28%
+    padding-bottom: 28%
+ .bgpic-box.view4
+  .bg
+   padding-bottom: 40.5%
+   background-image: url(../img/idx/bg4-m.png)
+   .market
+    bottom: 21%
+    width: 50%
+    padding-bottom: 25%
+   .yam
+    bottom: 35%
+    left: 43%
+    width: 16%
+    padding-bottom: 16%
+   .kids
+    bottom: 16%
+    left: 55%
+    width: 11%
+    padding-bottom: 11%
+   .catkids
+    bottom: 17%
+    left: 80%
+    width: 11%
+    padding-bottom: 11%
+   .guitar
+    bottom: 37%
+    left: 64%
+    width: 14%
+    padding-bottom: 14%
+   .run-kids
+    left: 12%
+    width: 10%
+    padding-bottom: 10%
+    
+
+  
+ .index-page
+  >div[class*="idx-"]
+   min-height: auto
+ 
+ .banner-box
+  .owl-theme
+   .owl-nav[class*=owl-]
+    opacity: .7
+    .owl-prev
+     left: 0
+    .owl-next
+     right: 0
+
+ .title-box
+  >img
+   height: auto
+   width: 300px
+ 
+ 
+ .idxstar
+  margin-top: 150px
+  #mon-star
+   position: relative
+   bottom: auto
+   right: auto
+   width: 100%
+   box-shadow: none
+   text-align: center
+   z-index: 1
+   .title
+    position: relative
+    +border-radius(50px)
+    width: auto
+    display: inline-block
+    h4
+     display: block
+     position: absolute
+     width: 5.4rem
+     font-size: 1.8rem
+     font-weight: 900
+     line-height: 1.2
+     color: $orange
+     left: 0
+     +Ycenter
+     top: 45%
+     z-index: 2
+     text-shadow: 0 0 5px #FFFFFF
+    h5
+     font-size: 2.4rem
+     margin: 0 30px 0 100px
+    
+
+     &:after
+      content: url(../img/footer/star.svg)
+      width: 20%
+      +Ycenter
+      left: -20px
+   .close
+    display: none
+   .star-list
+    width: 90%
+    padding: 0
+    margin: 20px auto
+    text-align: left
+    li
+     border: 2px solid $bg-orange
+     padding: 15px
+     max-width: 280px
+     margin: 10px auto
+     +border-radius
+     // &:after
+     //  top: -5px
+     //  left: -5px
+    &.owl-theme
+     .owl-controls
+      margin-top: 20px
+      .owl-dots
+       +Xcenter
+       bottom: -60px
+    // 兩側加上裝飾邊
+    &:before
+     content: url('../img/owl-deco-w1.svg')
+     height: 100%
+     position: absolute
+     left: -2px
+     top: 0
+     z-index: 10
+     overflow: hidden
+    &:after
+     content: url('../img/owl-deco-w2.svg')
+     height: 100%
+     position: absolute
+     right: -2px
+     top: 0
+     z-index: 10
+     overflow: hidden
+
+ .idx-about  
+  .main
+   flex-wrap: wrap
+   justify-content: center
+   padding-top: 50px
+   padding-bottom: 300px
+   >img
+    width: 200px
+    margin: 30px 0
+   .text
+    width: 100%
+    text-align: center
+    h1
+     margin-bottom: 20px
+    img.sep-line
+     display: none
+
+ .idx-news
+  .main
+   padding-bottom: 200px
+   .title-box
+    display: block
+    width: 100%
+    text-align: center
+    background-image: none
+    padding-bottom: 0
+   .text-title-list
+    width: 100%
+    li
+     border-radius: 50px
+     a.title
+      width: 100%
+   .box-list
+    display: none
+   .btn-block
+    margin-top: 20px
+  .decopic-box
+   .people1
+    bottom: 2%
+    width: 25%
+    padding-bottom: 25%
+   .people2
+    left: 5%
+    bottom: 5%
+    width: 20%
+
+ .idx-submission
+  .main
+   padding-bottom: 200px
+  .decopic-box
+   .people1
+    width: 25%
+    padding-bottom: 25%
+
+ .idx-article
+  .main
+   .box-list
+    grid-template-columns: 1fr 1fr
+    grid-template-rows: 1fr 1fr 1fr
+    li
+     &:nth-child(1)
+      grid-row-end: 3
+      a.content
+       height: 100%
+     a.content
+      height: 100%
+      +border-radius
+     .pic
+      // display: none
+     .btn
+      display: none
+   
+ .idx-links
+  background-image: url(../img/idx/bg-cloud1-m.png)
+  .main
+   .box-list
+    li
+     a
+      margin: 0
+
+ .idx-contact
+  >.bg-cloud:after
+   background-image: url(../img/idx/bg-cloud2-m.png)
+
+
+ #footer
+  .main
+   flex-wrap: wrap
+   padding-top: 50px
+   padding-bottom: 50px
+  .box1
+   width: 100%
+   order: 2
+   max-width: 800px
+   >a
+    display: none
+    img
+     width: 300px
+     margin: 0 auto
+   .link
+    margin-top: 0
+    margin-bottom: 20px
+  .box2
+   width: 100%
+   padding: 0 80px
+   margin: 0 auto
+   max-width: 700px
+   min-width: auto
+   .title
+    text-align: center
+   h6
+    text-align: center
+
+ .text-title-list
+  li
+   background: rgba(#ffffff,0.7)
+   position: relative
+   padding: 0
+   &:after
+    content: '\e919'
+    font-family: 'icomoon'
+    color: #f4aa73
+    +Ycenter
+    right: 20px
+    pointer-events: none
+
+   a.date
+    position: absolute
+    width: 120px
+    +Ycenter
+    left: 10px
+
+   a.title
+    width: 100%
+    max-width: 100%
+    padding: 10px 0 10px 145px
+
+   &:nth-child(odd)
+    &:after
+     color: $orange
+    //日期
+    a:first-child
+     background-color: $orange
+
+ .float-btns #star-btn
+  display: none
+ 
+ //文章內頁底與插畫距離
+ .inner-page
+  .bgpic-box
+   &.view1,&.view2,&.view3,&.view4
+    margin-top: 0
+
+
+ //分享按鈕固定於下方
+ .share-btn-box,
+ #article-wrap .share-btn-box.fixed,
+ #article-wrap .submission-btn-box.fixed,
+ .member-center .share-btn-box.fixed
+  position: fixed
+  left: 0
+  top: auto
+  bottom: 0
+  transform: none
+  width: 100vw
+  z-index: 40
+  ul
+   display: flex
+   justify-content: space-between
+   align-content: stretch
+   li
+    width: 25%
+    a
+     width: 100%
+     border-radius: 0
+     margin: 0
+     height: 50px
+     font-size: 1.8rem
+     i
+      font-size: 2rem
+      margin: 0 5px 0 0
+ //調整有分享按鈕的文章頁面 的footer與右下浮動按鈕
+ .article-page ~#footer
+  .box1
+   margin-bottom: 50px
+  ~.float-btns
+   bottom: 50px
+ //文章的展開HOVER漸層效果隱藏
+ .more-box .content:after
+  display: none
+ //文章列表頁 分類與搜尋框
+ .list-fun-box
+  flex-wrap: wrap
+  .list-cate-box
+   width: 100%
+   margin-right: 0
+   margin-bottom: 10px
+   .cate-select
+    h1
+     width: 120px
+     margin-right: 15px
+  .list-search-box
+   width: 100%
+   margin-bottom: 80px
+   button
+    width: 120px
+   .tag-box
+    opacity: 1
+    pointer-events: auto
+    transform: none
+    border: none
+    padding: 10px
+    top: calc(100% + 10px)
+    z-index: 0
+ .featured-page
+  .list-fun-box
+   .list-search-box
+    margin-bottom: 0
+ .keyword-box h3
+  border-radius: 10px
+
+ //文章列表
+ .box-list
+  li
+   a
+    padding: 15px
+    .tag
+     margin: 15px -15px 0 -15px
+     p
+      font-size: 1.2rem
+      padding: 0 10px
+      margin-right: 5px
+    .text
+     h5
+      font-size: 2rem
+      margin: 5px 0
+     h6
+      max-height: 7.2rem
+   a.content
+    height: calc(100% - 5rem)
+   .btn
+    height: 5rem
+    padding: 10px
+ // 頁碼
+ .page-num-box
+  padding: 20px 0
+  margin-top: 20px
+  a
+   border-radius: 5px
+   background-color: #ffffff
+   border: 2px solid $bg-orange
+   height: 40px
+   display: flex
+   justify-content: center
+   align-items: center
+   padding: 5px 12px
+  > a
+   width: 150px
+   i
+    font-size: 1.3rem
+  ul
+   li
+    a
+     display: flex
+     padding: 5px 12px
+     border-radius: 5px
+     background-color: #ffffff
+  &[data-color="green"]
+   a
+    border: 2px solid $bg-l-green
+
+ //文章內頁
+ .inner-page.article-page
+  // 調整LOGO，不遮到文章
+  #menu .menu-box #menu-logo
+   transform: none
+   width: 16%
+
+  .article-page-top
+   height: 140px
+ .inner-page.article-page
+  //資料區(日期、點閱、導覽路徑)
+  .info-box
+   &.pc
+    display: none
+   &.mb
+    display: inline-block
+   margin: 5px 0
+  // 標題加上底線
+  //橘棕色(一般)
+  &[data-bgcolor="orange"]
+   article h1
+    border-bottom: 2px solid $bg-orange
+  //綠色(自由投稿)
+  &[data-bgcolor="green"]
+   article h1
+    border-bottom: 2px solid $bg-green
+  //橘黃(訊息放送)
+  &[data-bgcolor="yellow-orange"]
+   article h1
+    border-bottom: 2px solid $bg-y-orange
+  //文章內容區
+  article
+   padding: 10px 15px 15px 15px
+   h1
+    padding-bottom: 10px
+    margin-bottom: 10px
+   >h6
+    display: inline
+    &:first-child:after
+     content: '-'
+     margin: 0 5px
+     opacity: 0.5
+
+   .article-box
+    margin: 10px 0 20px 0
+   .more-box
+    margin: 10px 0
+ .more-wrap
+  padding: 15px
+ .more-box
+  h5
+   border-radius: 5px
+   font-size: 1.8rem
+  .content
+   padding: 0
+   a
+    font-size: 1.7rem
+    // border-radius: 8px
+    padding: 8px 15px
+    margin-right: 5px
+  &.album
+   .photos
+    // padding: 0
+    margin-bottom: 0
+
+  ul.video-list
+   margin-top: 10px
+   li
+    width: calc((100% - 10px) / 2)
+    margin-bottom: 10px
+    border-radius: 5px
+ .sep-box
+  margin: 40px 0 60px 0
+  i
+   font-size: 4rem
+ .page-link-box
+  flex-wrap: wrap
+  margin: 0
+  a
+   width: calc(50% - 5px)
+   margin: 5px 0
+   // i
+   //  order: -1
+   // 上一篇
+   &:first-child
+    margin-right: 0
+   // 下一篇
+   &:last-child
+    margin-left: 0
+   // 返回
+   &.back
+    width: 100%
+    order: 3
+ .box-list#related-article .owl-carousel .owl-dots
+  margin: 0
+ //列表按鈕尺寸
+ .box-list li .btn
+  display: flex
+  justify-content: center
+  align-items: center
+  font-size: 1.6rem
+  i
+   margin-left: 5px
+
+ //自由投稿頁面
+ .submission 
+  .list-fun-box .list-search-box
+   width: 80%
+   // margin: 0 auto 15px auto
+  .box-list.top 
+   li 
+    a.content
+     border-radius: 10px 10px 0 0
+     border-bottom: none
+     .mark
+      width: 100px
+     .pic
+      border-radius: 5px
+     .intro
+      padding: 0 10px
+      height: 100%
+      .tag
+       margin: 10px -10px 0 -10px
+      .text
+       padding: 5px
+       h5
+        font-size: 2.2rem 
+        margin: 0
+       h6:last-child
+        font-size: 1.6rem
+    .btn-box
+     position: relative
+     width: 100%
+     height: auto
+     right: auto
+     bottom: auto
+     padding: 0 15px 15px 15px
+     border-radius: 0 0 10px 10px
+     border: 2px solid #7eab51
+     border-top: none
+     background: #ffffff
+     a
+      font-size: 1.6rem
+      border-radius: 5px
+      &:nth-child(1)
+       background: $l-green
+       color: #ffffff
+       margin: 0 10px 0 0
+       width: 50%
+      &:nth-child(2)
+       background: $orange
+       color: #ffffff
+       margin: 0
+       width: calc(50% - 10px)
+ 
+
+  .box-list
+   li
+    a.content
+     height: auto
+    .btn-box
+     padding: 5px
+     background: #ffffff
+     height: auto
+     flex-wrap: wrap
+     margin-top: -5px
+     a
+      &:nth-child(1)
+       background: $l-green
+       color: #ffffff
+      &:nth-child(2)
+       background: $orange
+       color: #ffffff
+     a:nth-child(1),a:nth-child(2)
+      width: 100%
+      margin: 5px
+      border-radius: 5px
+   &.finish
+    li
+     .btn-box
+      a
+       &:nth-child(1)
+        color: $green
+        background: $bg-l-green
+ 
+ //自由投稿 徵稿活動頁
+ .submission.article-page
+  .main
+   padding: 0 50px
+  // .profile
+  //  display: flex
+  //  flex-wrap: wrap
+   // width: 100vw
+   // .coverpic-box
+   //  order: 1
+   // .info-box
+   //  order: 2
+   //  margin-top: 20px
+    // width: calc(100% - 100px)
+  .coverpic-box
+   
+   img
+    border-radius: 10px 10px 0 0
+    border: 2px solid $bg-l-green
+    border-bottom: none
+   // width: calc(100% - 30px)
+   // margin-left: -35px
+  .main-box
+   padding: 30px
+   margin: 0 0 10px 0
+   flex-wrap: wrap
+   border-radius: 0 0 10px 10px
+   border-top: none
+   .submission-info
+    width: 100%
+    margin-right: 0
+    margin-bottom: 30px
+    padding: 0
+    border-right: none
+    text-align: center
+    h1
+     font-size: 3.2rem
+     border-bottom: none
+     padding-bottom: 0
+    h5
+     font-size: 2.2rem
+     margin: 10px 0
+     span
+      border: 2px solid rgba($l-green,0.5)
+      padding: 5px 10px
+      border-radius: 10px
+      margin-right: 10px
+      margin-bottom: 5px
+      &:last-child
+       padding-right: 10px
+       border-right: 2px solid rgba($l-green,0.5)
+   .submission-date
+    width: 100%
+    min-width: auto
+    >div
+     width: 100%
+     border-radius: 10px
+     overflow: hidden
+     padding-bottom: 20px
+     &.start
+      border: 2px solid $l-green
+     &.end
+      border: 2px solid $orange
+      margin-left: 10px
+      h3:before
+       display: none
+
+    h5
+     width: 100%
+     border-radius: 0
+
+    h3
+     font-size: 4rem
+     // margin: 10px 0
+     span
+      font-size: 2.4rem
+    p
+     font-size: 2.4rem
+
+  .submission-btn-box
+   position: fixed
+   bottom: 0
+   top: auto
+   right: auto
+   left: 0
+   transform: translateY(0)
+   width: 100vw
+   z-index: 40
+   display: flex
+   justify-content: space-between
+   align-content: stretch
+   +box-shadow
+   li
+    width: 100%
+    &:last-child
+     order: -1
+     width: 40%
+    a
+     display: flex
+     justify-content: center
+     align-items: center
+     width: 100%
+     height: 60px
+     writing-mode: inherit
+     border-radius: 0
+     margin-bottom: 0
+     padding: 0
+     i
+      margin-top: 0
+      margin-left: 5px
+     &[data-color="white"]
+      width: 100%
+      border: none
+      margin-left: 0
+      
+
+
+
+  // .submission-btn-box
+  //  top: calc(100% + 20px)
+  //  right: auto
+  //  left: 0
+  //  position: fixed
+  //  top: auto
+  //  bottom: 10px
+  //  li
+  //   a
+  //    font-size: 1.6rem
+  //    padding: 15px 8px
+  //    margin-bottom: 10px
+  //    border-radius: 0 10px 10px 0
+  //    i
+  //     margin-top: 5px
+  //    &[data-color="white"]
+  //     width: 100%
+  //     margin-left: -2px
+
+  // ~ #footer
+  //  background: linear-gradient(180deg, $orange 0%, $l-green 100%)
+  //  background: -moz-linear-gradient(180deg, $orange 0%, $l-green 100%)
+  //  background: -webkit-linear-gradient(180deg, $orange 0%, $l-green 100%)
+  //  background: -o-linear-gradient(180deg, $orange 0%, $l-green 100%)
+  // ~ #footer ~ .float-btns
+  //  bottom: 0
+
+ //會員專區
+ .inner-page.member-center
+  article
+   padding: 15px
+   .article-box
+    padding: 0
+    hr
+     margin: 10px 0
+
+  .my-info
+   padding: 10px
+   li
+    width: 100%
+    padding-right: 0
+  
+  .my-list
+   display: flex
+   flex-wrap: wrap
+   li
+    width: 100%
+    padding: 5px
+    // 標題列
+    &.head
+     display: none
+    .info
+     width: 100%
+     flex-wrap: wrap
+     padding: 10px
+     p
+      text-align: left
+      padding: 0
+      margin-right: 5px
+      
+    .btn
+     padding: 10px 0
+     a
+      margin: 5px
+      padding: 10px
+      border-radius: 5px
+   //收藏文章
+   &.fav
+    li
+     .info
+      p
+       &:before
+        color: $orange
+        font-family: 'icomoon','Noto Sans TC','微軟正黑體',Arial
+       &:nth-child(1)
+        width: auto
+        font-size: 1.6rem
+        margin-right: 20px
+        &:before
+         content: '文章分類：'
+       &:nth-child(2)
+        width: auto
+        font-size: 1.6rem
+        &:before
+         content: '發佈日期：'
+       &:nth-child(3)
+        width: 100%
+        font-weight: 700
+        order: -1
+    .btn
+     border-left: 2px solid $bg-orange
+     width: auto
+     padding: 10px
+     a
+      span
+       display: none
+
+   //投稿記錄
+   &.sub
+    li
+     .info
+      p
+       &:before
+        color: $l-green
+        font-family: 'icomoon','Noto Sans TC','微軟正黑體',Arial
+
+       &:nth-child(1)
+        width: 100%
+        font-size: 1.6rem
+        &:before
+         content: '投稿主題：'
+         
+       &:nth-child(2)
+        width: auto
+        font-size: 1.6rem
+        margin-right: 20px
+        &:before
+         content: '投稿者：'
+         
+       &:nth-child(3)
+        width: auto
+        font-size: 1.6rem
+        white-space: inherit
+        &:before
+         content: '投稿日期：'
+       &:nth-child(4)
+        width: 100%
+        color: $green
+        font-weight: 700
+        order: -1
+       .deadline
+        display: inline-block
+        &:before
+         content: '截止日：'
+         display: inline-block
+     .btn
+      border-left: 2px solid $bg-green
+      width: 150px
+  
+  
+  .member-menu-m
+   display: block
+
+// ================= 寬 768 內  ================ //
+
+@media screen and (max-width: 768px)
+ html
+  font-size: 58.5%
+ .w1600,.w1440,.w1300,.w1200,.w800
+  padding: 0 30px
+ #menu
+  .menu-box #menu-logo
+   a
+    img
+     &:first-child
+      top: 10%
+     &:last-child
+      width: 75%
+      top: 7%
+      left: 54%
+  #menu-btn-list>li>a
+   padding: 0 20px
+ #footer
+  .box2
+   padding: 0
+  .box1 .link a
+   width: 50px
+   height: 50px
+ #gotop img
+  width: 100px
+ 
+ .index-page>div[class*="idx-"] .main
+  margin: 50px auto
+ .title-box
+  margin: 30px auto
+  h6
+   margin: 0 0 10px 0
+   
+ .btn-block
+  margin-top: 10px
+  li a .text h6
+   max-height: 7.2rem
+ .all-btn
+  margin: 10px auto
+  padding: 20px 50px
+ .animate-pic
+  width: 200px
+  height: 200px
+ .cate-btn
+  margin: 0
+  justify-content: space-between
+  li
+   width: 100%
+   margin: 5px
+   a
+    margin: 0
+    width: 100%
+    text-align: center
+    font-size: 1.8rem
+    padding: 10px
+    +border-radius
+    line-height: 1.2
+ 
+ 
+ 
+ .idx-article
+  .keyword-box
+   margin: 10px 0 -10px 0
+  .main
+   .box-list,.box-list.guide
+    display: flex
+    margin-top: 20px
+    li
+     // width: 100%
+     width: calc(100% / 2)
+     &:nth-child(1)
+      width: 100%
+     a
+      .pic
+       display: none
+      .tag
+       margin: 0
+       position: absolute
+       top: -10px
+       left: -10px
+       p
+        border: 2px solid #ffffff
+        &:nth-child(1)
+         border-radius: 30px
+      // .text
+      //  h6
+      //   display: none
+     &:nth-child(1) 
+      ~ li 
+       a .tag
+        margin: 0
+        // margin: 0 -15px 0 -15px
+     a.content
+      .text
+       margin-top: 0
+    //影像藝廊
+    &.gallery
+     display: grid
+     grid-template-columns: 1fr 1fr 1fr
+     grid-template-rows: 1fr 1fr 1fr
+     li
+      // width: calc(100% / 3)
+      width: 100%
+      padding: 5px
+      
+      a
+       padding: 5px
+       .pic
+        display: block 
+      &:nth-child(1)
+       grid-column-start: 1
+       grid-column-end: 3
+       grid-row-end: 3
+       a
+        .pic
+         height: 100%
+ 
+ .keyword-box h3
+  padding: 15px
+  font-size: 2.4rem
+ 
+ //文章列表
+ .box-list
+  li
+   width: calc(100% / 2)
+ //頁碼樣式
+ .page-num-box
+  > a
+   width: 120px
+  ul
+   li
+    a
+     margin: 5px
+ 
+ //文章內頁
+ .inner-page.article-page
+  // 調整LOGO
+  // #menu .menu-box #menu-logo
+  //  width: 22%
+  .article-page-top
+   height: 100px
+  article.more-wrap
+   padding: 10px
+   .more-box
+    &:first-child
+     margin-top: 0
+    &:last-child
+     margin-bottom: 0
+   
+  
+ .article-page
+  main
+   margin-top: 0
+ .more-box.link .box-list li
+  width: 33%
+ .more-box.album .photos a img
+  height: 150px
+ .more-box .author
+  .text
+   padding: 10px
+   p
+    font-weight: 400
+    line-height: 1.5
+   h6
+    display: none
+
+ .box-list#related-article.owl-carousel .owl-dots
+  margin: 0
+ 
+
+ #article-wrap
+  padding-top: 20px  
+ 
+ //投稿頁面
+ .submit-page .submit-wrap
+  .captcha
+   flex-wrap: wrap
+   a
+    width: auto
+    margin: 10px 0 0 0
+    span
+     width: 50%
+ .article-page
+  .info-box.mb
+   display: block
+  .submit-work
+   article>h6
+    font-size: 1.8rem
+    span
+     border-right: none
+     margin-right: 10px
+     padding-right: 0
+     
+ //搜尋結果頁
+ .search-page
+  .search-list 
+   li
+    +border-radius
+    flex-wrap: no-wrap
+    &:after
+     right: 15px
+    a
+     padding: 5px 10px
+     .cate
+      padding: 5px
+      border-radius: 5px
+      width: 50px
+     .date
+      font-size: 1.5rem
+      &:after
+       display: none
+
+     .title
+      display: block
+      width: 100%
+      white-space: nowrap
+      text-overflow: ellipsis
+      overflow-x: hidden
+     p
+      width: calc(100% - 90px)
+ 
+ //關鍵字按鈕
+ .tag-box
+  a
+   padding: 10px 15px
+ 
+ .inner-page.about-page
+  article
+   padding: 20px
+   .article-box
+    padding: 0
+ 
+
+// ================= 寬 600 內  ================ //
+
+@media screen and (max-width: 600px)
+ html
+  font-size: 55%
+
+ .w1600, .w1440, .w1300, .w1200, .w800
+  padding: 0 20px
+ .banner-box,.inner-page
+  padding-top: 60px
+ .inner-page.article-page
+  padding-top: 0
+  .article-page-top
+   height: 60px
+
+ #menu
+  height: 60px
+
+  nav
+   width: calc(100% - 30px)
+   #menu-main-list
+    >li
+     >a
+      padding: 15px 10px
+     &.more
+      i.icon-arrow-down
+       top: 6px
+    .drop-menu>li>a
+     font-size: 1.8rem
+  #menu-btn-list
+   padding: 5px
+   >li
+    >a
+     padding: 0 8px
+     height: 40px
+     margin: 0 3px
+     i
+      font-size: 1.8rem
+      margin-right: 2px
+   
+   .home
+    display: none
+   
+   #menu-btn
+    padding: 0 10px
+
+ #footer
+  .box2
+   ul.list
+    flex-wrap: wrap
+    li
+     // width: 50%
+     margin-bottom: 10px
+     text-align: center
+     a
+      opacity: .8
+      display: block
+      &:before
+       font-size: 0.8rem
+       margin-right: 0
+
+ 
+ 
+ .text-title-list
+  li
+   margin: 25px 0
+   // a
+   //  &:first-child
+   //   width: 100px
+   //   font-size: 1.4rem
+   //  &:last-child
+   //   padding: 10px 0 10px 125px
+   // a:first-child
+   a.date
+    width: auto
+    padding: 3px 12px
+    top: -15px
+    left: 0
+    transform: none
+   // a:last-child
+   a.title
+    width: 100%
+    padding: 10px 40px 10px 20px
+ 
+ .idxstar
+  margin-top: 100px
+  #mon-star .title h5
+   margin: 0 30px 0 80px
+   &:after
+    transform: translateY(-50%) scale(0.8)
+  
+ .idx-about
+  .decopic-box
+   .cloud1
+    width: 30%
+   .cloud2
+    width: 30%
+    top: 15%
+   .cloud3
+    width: 25%
+    top: 60%
+    left: 50%
+   .cloud4
+    width: 30%
+    top: 60%
+    left: 2%
+   .cloud5
+    display: none
+  >img
+   width: 150px
+  .main
+   .text
+    h1
+     font-size: 2.4rem
+    p
+     font-size: 1.8rem
+
+ .idx-news
+  .decopic-box
+   .cloud1
+    width: 25%
+    top: -15%
+   .cloud2
+    width: 0%
+    top: 25%
+   .cloud3
+    width: 35%
+    bottom: 20%
+   .cloud4
+    display: none
+   .cloud5
+    width: 22%
+    bottom: 20%
+ .idx-submission .main .box-list li
+  max-width: 350px
+  margin: 0 auto
+ .idx-submission,.idx-links
+  .main
+   padding-left: 0
+   padding-right: 0
+   .box-list
+    width: 100%
+    &:before,&:after
+     display: none
+ 
+ .idx-article
+  .main
+   .box-list,.box-list.guide
+    li
+     width: 100%
+     a
+      .text
+       h6
+        display: none
+   .box-list.gallery
+    display: flex
+    li
+     width: 50%
+ .idx-links
+  .main
+   padding-bottom: 50px
+   .box-list
+    li
+     a
+      width: 88%
+      // padding-bottom: 88%
+      top: 2.5%
+      left: 6%
+      .pic
+       width: 90%
+       padding-bottom: 90%
+       margin: 0 auto 10px auto
+
+ .idx-contact
+  .main
+   padding-top: 50px
+  .form-box
+   border-radius: 10px
+   label
+    &.captcha
+     flex-wrap: wrap
+     input
+      width: calc(100% - 130px)
+     a
+      width: 130px
+      margin-left: 0
+      img
+       width: 100px
+       margin-right: 5px
+   
+  .decopic-box
+   .cloud1
+    width: 25%
+   .cloud2
+    width: 20%
+    top: 10%
+   .cloud3
+    width: 35%
+    bottom: 20%
+   .cloud4
+    width: 20%
+    bottom: 10%
+    right: 56%
+   .cloud5
+    width: 30%
+    top: auto
+    bottom: 20%
+    left: -15%
+
+ .form-box
+  padding: 0 15px 20px 15px
+  label
+   p
+    width: 100%
+    text-align: left
+    text-align-last: auto
+    padding: 0 5px
+   input, textarea
+    width: 100%
+    // font-size: 2rem
+    padding: 10px
+
+   // &.captcha
+   //  flex-wrap: wrap
+   //  input
+   //   width: calc(100% - 130px)
+   //  a
+   //   width: 130px
+   //   margin-left: 0
+   //   img
+   //    width: 100px
+   //    margin-right: 5px
+ 
+ .list-fun-box
+  flex-wrap: wrap
+  .list-cate-box
+   width: 100%
+   margin: 0 0 10px 0
+   .cate-select
+    padding: 5px
+    border-radius: 5px
+    h1
+     width: 90px
+     margin-right: 10px
+    >i
+     right: 10px
+   .drop-menu
+    margin-top: -2px
+    border-radius: 5px
+    li
+     a
+      border-bottom: 2px solid $bg-orange
+      border-radius: 0
+      padding: 10px
+     &.close
+      margin-top: 0
+      a
+       border-bottom: none
+  .list-search-box
+   width: 100%
+   border-radius: 5px
+   input
+    padding: 10px
+   button
+    width: 120px
+    min-width: auto
+    // span
+    //  display: none
+    i
+     margin-left: 5px
+
+ //首頁各區塊下方高度
+ .idx-about
+  .main
+   padding-bottom: 200px
+ .idx-news
+  .main
+   padding-bottom: 100px
+ .idx-submission
+  .main
+   padding-bottom: 150px
+ .idx-article
+  .main
+   padding-bottom: 150px
+ .idx-contact
+  .main
+   padding-bottom: 100px
+ 
+ #menu
+  #menu-btn-list
+   .search
+    .drop-menu
+     &:after
+      display: none
+     &.search-box
+      padding: 20px
+      form 
+       input
+        width: 100%
+        border: 2px solid $orange
+       > button
+        width: 100%
+        margin-top: 10px
+
+        span
+         display: inline
+         color: #ffffff
+         font-weight: 700
+         margin-right: 10px
+       .tags
+        font-size: 2rem
+        text-align: center
+        button
+         font-size: 2rem
+   .drop-menu>li>a
+    font-size: 2rem
+    padding: 15px
+   .member
+    .drop-menu:after
+     display: none
+
+ .box-list 
+  li 
+   a.content
+    border-radius: 10px 10px 0 0
+   a
+    padding: 10px
+    .text h5
+     margin: 0 0 5px 0
+    .tag
+     margin: 10px 0 0 -10px
+     transform: scale(0.8)
+     transform-origin: left
+     width: 140%
+    .pic
+     border-radius: 5px
+ .idx-article
+  .box-list li a .text h5
+   margin: 10px 0 0 0
+ .page-num-box
+  flex-wrap: wrap
+  >a
+   width: calc((100% - 10px)/2)
+  ul
+   order: -1
+   width: 100%
+   justify-content: space-between
+   margin-bottom: 10px
+   li
+    width: 100%
+ 
+ .box-list#related-article
+  li
+   max-width: 350px
+   margin: 0 auto
+ 
+ //文章內頁
+ .inner-page.article-page
+  // 調整LOGO
+  #menu .menu-box #menu-logo
+   width: 22%
+ .sep-box
+  margin: 30px 0 40px 0
+  i
+   margin: 0 10px
+  p
+   top: 90%
+ .more-box
+  .author
+   .pic
+    width: 40%
+    padding-bottom: 40%
+   .text
+    width: 58%
+ .share-btn-box ul li a
+  height: 35px
+ .article-page ~ #footer ~ .float-btns
+  bottom: 40px
+  padding: 0 10px
+ .float-btns 
+  padding: 0 10px
+  ul li
+   margin-top: -20px
+  #go-subpage
+   a
+    transform: scale(0.9) translate(10px, 10px)
+    .pen
+     width: 35%
+     top: 50%
+     right: 0
+  #gotop 
+   a
+    width: 80px
+    margin-bottom: -60px
+    .tag
+     width: 50%
+     top: 30px
+     left: 15px
+    .farmer
+     width: 90%
+
+ .inner-page ~ #footer .main
+  padding-top: 50px
+  padding-bottom: 0
+ #footer
+  .box1
+   margin-top: 10px
+   .link a
+    margin: 10px
+  .box2
+   .sep-line
+    margin: 15px 0
+ .more-box.link 
+  .box-list 
+   margin-top: 10px
+   li
+    width: 50%
+    a
+     border-radius: 5px
+     padding: 5px
+     margin-top: 0
+     .pic
+      border-radius: 5px
+     p
+      font-size: 1.6px
+      margin-top: 5px
+ .more-box ul.video-list li
+  width: 100%
+ .more-box.album .photos.active a
+  width: 48%
+  padding-bottom: 30%
+  border-radius: 5px
+  margin-bottom: 0
+  margin-top: 0
+  img
+   // max-width: 100%
+ 
+ //自由投稿頁面
+ .submission 
+  .main
+   padding: 0 20px
+  .list-fun-box .list-search-box
+   width: 100%
+  .box-list.top 
+   li 
+    margin: 10px 0
+    a.content 
+     border-radius: 10px 10px 0 0
+     border-bottom: none
+     .mark
+      width: 70px
+     .pic
+      width: 100%
+      padding-bottom: 60%
+      border: 5px
+     .intro
+      width: 100%
+      padding: 0
+
+ //自由投稿 徵稿活動頁
+ .submission.article-page
+  .main
+   padding: 0 20px
+  .breadcrumb
+   display: none
+  .profile
+   .info-box
+    order: 2
+    margin-top: 10px
+    width: calc(100% - 60px)
+    .breadcrumb
+     display: none
+  .coverpic-box
+   width: 100%
+  .main-box
+   padding: 15px
+   margin: 0 0 10px 0
+   .submission-info
+    margin-bottom: 20px
+    text-align: left
+    h1
+     font-size: 2.4rem
+    h5
+     font-size: 1.7rem
+     margin: 5px 0
+
+   .submission-date
+    width: 100%
+    margin-bottom: 0
+    >div
+     width: 100%
+     padding-bottom: 10px
+    h5
+     padding: 5px 15px
+     font-size: 1.7rem
+     // width: auto
+    h3
+     font-size: 2.4rem
+     letter-spacing: 0.5px
+     margin: -5px 0 0 0
+     span
+      font-size: 1.6rem
+      margin: 2px
+    p
+     font-size: 1.7rem
+  .box-list.near
+   li
+    width: 100%
+    .btn-box
+     flex-wrap: nowrap
+
+ 
+ // 投稿頁面
+ .submit-page
+  .main
+   margin-bottom: 80px 
+  .pic-upload
+   .pic-upload-box
+    li
+     width: 100%
+    .upload-btn-box.add
+     padding-bottom: 0
+     height: 50px
+     h6
+      i
+       display: none
+  
+  .submit-title
+   padding: 8px 0 18px 0
+  .detail-box
+   .content
+    padding: 15px
+    ul.notice li
+     padding-left: 20px
+  .submit-content>div
+   padding: 15px
+  .btn-block-inline
+   flex-wrap: wrap
+   >div:first-child
+    margin-right: 0
+    margin-bottom: 10px
+   a
+    width: 100%
+    margin-right: 0
+    margin-bottom: 10px
+  .check-box.confirm
+   margin: 10px 0 0 0
+
+  
+ // 表格STYLE2 (登入、註冊、投稿)
+ .form-box-style2
+  .item-box
+   flex-wrap: wrap
+   label
+    flex-wrap: wrap
+   .name
+    width: auto
+    margin-right: 10px
+    text-align: left
+   .fill-box
+    width: 100%
+    input
+     width: 100%
+   &.captcha
+    flex-wrap: wrap
+    .fill-box
+     flex-wrap: wrap
+     input
+      width: 100%
+      margin-bottom: 10px
+ .inner-page.about-page article
+  padding: 15px
+  border-radius: 5px
+ .contact-info-box
+  ul
+   li
+    border-bottom: 2px solid $bg-orange
+    padding-bottom: 10px
+    &:last-child
+     border-bottom: none
+     padding-bottom: 0
+    .title
+     display: block
+    a.btn
+     margin-bottom: 5px
+     i
+      width: 30px
+      height: 30px
+      margin-right: 0
+ .contact-form-box
+  .form-box
+   label
+    padding: 5px 0 15px 0
+   input,textarea
+    width: 100%
+   .captcha
+    flex-wrap: wrap
+    input
+     width: 100%
+     margin-bottom: 10px
+    a
+     margin-left: 0
+
+ .inner-page.about-page
+  article
+   .article-box
+    hr
+     margin: 10px 0
+
+ .submission.article-page
+  .detail-box
+   .more-box.descript .content
+    padding: 0 10px
+
+
+// ================= 寬 450 內  ================ //
+
+@media screen and (max-width: 450px)
+ .w1600, .w1440, .w1300, .w1200, .w800
+  padding: 0 15px
+ #menu
+  .menu-box #menu-logo
+   a
+    img
+     &:last-child
+      width: 80%
+      top: 12%
+      left: 65%
+ #footer
+  p
+   font-size: 1.6rem
+   line-height: 1.5
+  .box1
+   .link
+    a
+     width: 40px
+     height: 40px
+     i
+      font-size: 2.3rem
+  .box2
+   .sep-line
+    margin: 10px 0
+   .title
+    h4
+     font-size: 1.8rem
+     span
+      display: block
+      &:first-child:after
+       display: none
+    p
+     font-size: 1.6rem
+     margin-top: 5px
+     span
+      display: block
+   ul.list
+    li
+     width: 50%
+ .inner-page ~ #footer .main
+  padding-top: 25px
+ .title-box
+  margin: 20px auto
+  >img
+   width: 240px
+   margin: 20px auto
+ .inner-page
+  .title-box
+   >img
+    width: 200px
+ .idxstar #mon-star .star-list
+  width: 300px
+  li
+   max-width: 240px
+ .idx-about
+  .main
+   padding-bottom: 100px
+   >img
+    width: 150px
+ .idx-news
+  .main
+   padding-bottom: 100px
+ .idx-submission
+  .main
+   padding-bottom: 100px
+ .idx-article
+  .main
+   padding-bottom: 75px
+ .idx-contact
+  .main
+   padding-bottom: 100px
+
+ //文章內頁
+ .inner-page.article-page
+  article
+   .tag-box
+    margin: 5px 0
+    a
+     padding: 7px 10px
+     margin: 0 0 5px 0
+ .author-wrap
+  max-width: 350px
+  margin: 0 auto
+ .more-box
+  .content
+   a
+    padding: 6px 10px
+    border-radius: 8px
+  .author
+   .pic
+    width: 100%
+    padding-bottom: 100%
+   .text
+    width: 100%
+    padding: 0
+    margin: 10px 0
+  a.btn
+   width: 48%
+   text-align: center
+   margin-right: 1%
+   border-radius: 30px
+   
+   i
+    margin-left: 2px
+  &.album
+   .photos
+    padding: 10px 0
+    a
+     border-radius: 5px
+     img
+      height: 100px
+ .more-wrap
+  .more-box
+   margin-bottom: 20px
+ .page-link-box
+  a
+   width: 100%
+ 
+ // 會員專區
+ .inner-page.member-center
+  .my-list
+   li
+    flex-wrap: wrap
+    padding: 0
+    .btn
+     a
+      margin: 0
+   &.fav
+    li
+     border-bottom: 2px solid $bg-orange
+     &:hover
+      border: none
+      border-bottom: 2px solid $bg-orange
+     &:nth-child(odd)
+      background: none
+     .info
+      width: 100%
+     .btn
+      width: 100%
+      border-left: none
+      display: flex
+      justify-content: space-between
+      padding-top: 0
+      padding-bottom: 15px
+      a
+       width: calc((100% - 10px) / 2)
+
+   &.sub
+    li
+     border-bottom:  2px solid $bg-green
+     &:hover
+      border: none
+      border-bottom: 2px solid $bg-green
+     &:nth-child(odd)
+      background: none
+     .info
+      width: 100%
+      padding-bottom: 0
+     .btn
+      width: 100%
+      border-left: none
+      padding: 0 10px 10px 10px
+      p
+       text-align: left
+       &:before
+        content: '狀態：'
+      a
+       width: 100%
+  
+ .form-box-style2 .form-content
+  padding: 15px
+ .inner-page .title-box
+  margin: 10px auto
+ 
+ //登入 註冊頁
+ .member
+  main
+   margin-bottom: 50px
+   .form-box
+    border-radius: 10px
+    padding: 15px
+ select
+  background-position: calc(100% - 10px) 50%
+ .all-basic-btn
+  padding: 10px
+  i
+   margin: 0
+ .login-page
+  .social-box
+   .btn-block-inline
+    flex-wrap: wrap
+    a
+     width: 100%
+     margin-right: 0
+     margin-bottom: 10px
+
+
+
+// ================= 寬 380 內  ================ //
+@media screen and (max-width: 380px)
+ .box-list li
+  width: 100%
+
+  #menu-btn-list
+   >li>a
+    height: 35px
+    border-radius: 5px
+    p
+     font-size: 1.4rem
+   #menu-btn
+    padding: 0 8px
+    ul li
+     width: 20px
+     height: 2px
+     margin: 4px auto
+  &.active
+   #menu-btn-list
+    #menu-btn
+     &:after
+      border-width: 5px 5px 0 5px
+     ul li
+      &:nth-child(1)
+       transform: rotate(-45deg) translate(-4px, 5px)
+      &:nth-child(3)
+       transform: rotate(45deg) translate(-3px, -4px)
+
+
+
+ .submission
+  .box-list.top
+   li 
+    .btn-box 
+     padding: 5px
+     a:nth-child(n)
+      width: 100%
+      margin: 5px
+      height: auto
+ .member
+  .step-box
+   margin-bottom: 10px
+   ul
+    li, li.active
+     h5
+      display: inline-block
+      width: 45px
+      line-height: 1.2
+      padding-bottom: 5px
+ .more-box a.btn
+  width: 100%

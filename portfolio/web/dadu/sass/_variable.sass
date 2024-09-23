@@ -1,0 +1,440 @@
+// 文字色、黑色、灰色
+$t-black: #333333; //文字-黑
+$t-gray: #999999; //文字-淺灰
+$gray: #f5f5f5; //淺灰色
+
+// 主要色
+$brown: #764330; //棕色
+$orange: #c66742; //橘色
+$green: #587937; //綠色
+$l-green: #7eab51; //亮綠色
+$blue: #5169a7; //藍色
+
+// 輔色、底色、背景色
+$bg-brown: #f7efec; //淺棕色底
+$bg-brown2: #f5e6df; //棕色底
+$bg-orange: #faeadd; //橘色
+$bg-y-orange: #fce9cc; //橘黃底
+$bg-y-orange2:  #fcf4ee; //淺橘黃底
+$bg-green: #ebf2df; //綠色底
+$bg-l-green: #e2eece; //亮綠色底
+$bg-l-green2: #f4f7f0; //最淺綠色底
+$bg-blue: #f2f2f3; //藍色底
+
+// SNS 社群平台顏色
+$color-fb: #1877f2
+$color-line: #00c300
+$color-twitter: #1da1f2
+$color-yt: #f00
+
+// ------------------------ //
+// $color1: #764330; //主要色1 (棕色) → $brown
+// $color2: #c66742; //主要色2 (橘色) → $orange
+// $color3: #587937; //主要色3 (綠色) → $green
+// $color3-1: #7eab51; //主要色3-1 (亮綠色) → $l-green
+// $color4: #5169a7; //主要色4 (藍色) → $blue
+
+// $subcolor1: #f7efec; //輔色1 (淺棕色底) → $bg-brown
+// $subcolor1-1: #f5e6df; //輔色1-1 (棕色底) → $bg-brown2
+// $subcolor2: #faeadd; //輔色2 (淺橘色底) → $bg-orange
+// $subcolor2-1: #fce9cc; //輔色2-1 (淺橘黃底) → $bg-y-orange
+// $subcolor2-2: #fcf4ee; //輔色2-2 (最淺橘黃底) → $bg-y-orange2
+// $subcolor3: #ebf2df; //輔色3 (淺綠色底) → $bg-green
+// $subcolor3-2: #e2eece; //輔色3-2 (淺綠色-自由投稿) → $bg-l-green
+// $subcolor3-1: #f4f7f0; //輔色3-1 (最淺綠色底) → $bg-l-green2
+// $subcolor4: #f2f2f3; //輔色4 (淺藍色底) → $bg-blue
+// ------------------------ //
+
+
+
+
+
+@font-face
+ font-family: 'Noto Sans TC','微軟正黑體',serif;
+
+//首頁Banner雲朵動畫
+//Cloud1
+@keyframes cloud
+	0%
+  transform: scale(1,1)
+  opacity: 0
+	50%
+  transform: scale(1,1.2)
+  opacity: 1
+ 100%
+  transform: scale(1,1.1)
+  opacity: 0
+
+@-webkit-keyframes cloud
+	0%
+  transform: scale(1,1) 
+  opacity: 0
+	50%
+  transform: scale(1,1.2)
+  opacity: 1
+ 100%
+  transform: scale(1,1.1)
+  opacity: 0
+
+// 首頁小雲朵飄動動畫
+//Cloud2
+@keyframes cloud-to-right
+	0%
+  transform: translateX(0)
+  opacity: 0
+	20%
+  opacity: 1
+ 80%
+  opacity: 1
+ 100%
+  transform: translateX(50%)
+  opacity: 0
+
+//Cloud3
+@keyframes cloud-to-left
+	0%
+  transform: translateX(0)
+  opacity: 0
+	20%
+  opacity: 1
+ 80%
+  opacity: 1
+ 100%
+  transform: translateX(-50%)
+  opacity: 0
+
+//UB
+//產品頁區塊波浪
+@keyframes wave
+	0%
+  transform: scale(1,1.2) 
+	50%
+  transform: scale(1.2,0.8)  
+	100%
+  transform: scale(1,1.2)
+
+@-webkit-keyframes wave
+	0%
+  transform: scale(1,1.2) 
+	50%
+  transform: scale(1.2,0.8)  
+	100%
+  transform: scale(1,1.2)
+
+//產品頁區塊波浪(下層透明)
+@keyframes wave2
+	0%
+  transform: scale(1.5,1.5) 
+  opacity: 0.3
+	50%
+  transform: scale(1,1.2)  
+  opacity: 0.6
+	100%
+  transform: scale(1.5,1.5)
+  opacity: 0.3
+
+@-webkit-keyframes wave2
+	0%
+  transform: scale(1.5,1.5) 
+  opacity: 0.3
+	50%
+  transform: scale(1,1.2)  
+  opacity: 0.6
+	100%
+  transform: scale(1.5,1.5)
+  opacity: 0.3
+
+// 產品頁向下箭頭動畫
+@keyframes arrowdown
+	0%
+  transform: translateY(-50%)
+  opacity: 0
+	70%
+  opacity: 1
+	100%
+  transform: translateY(50%)
+  opacity: 0
+//產品頁Stage icon動畫
+@keyframes StageAnimate
+ 0%
+  background-position: 0 0
+ 25%
+  background-position: 100% 0
+ 50%
+  background-position: 0 100%
+ 75%
+  background-position: 100% 100%
+ 100%
+  background-position: 0 0
+
+@keyframes slideIn-logo
+ 0%
+  top: 40%
+  opacity: 0
+
+ 100%
+  top: 50%
+  opacity: 1
+
+
+
+@-webkit-keyframes slideIn-logo
+ 0%
+  top: 50%
+  opacity: 0
+  transform: translate(-50%, -50%) scale(1.2)
+ 100%
+  top: 50%
+  opacity: 1
+  transform: translate(-50%, -50%) scale(1)
+
+@keyframes slideIn
+ 0%
+  -webkit-transform: translateY(50px)
+  opacity: 0
+ 100%
+  -webkit-transform: translateY(0)
+  opacity: 1
+@-webkit-keyframes slideIn
+ 0%
+  -webkit-transform: translateY(50px)
+  opacity: 0
+ 100%
+  -webkit-transform: translateY(0)
+  opacity: 1
+@keyframes slideIn
+ 0%
+  -webkit-transform: translateY(50px)
+  opacity: 0
+ 100%
+  -webkit-transform: translateY(0)
+  opacity: 1
+
+@-webkit-keyframes marginIn
+ 0%
+  margin: -50px 0 0 0
+  opacity: 0
+ 100%
+  margin: 0
+  opacity: 1
+@keyframes marginIn
+ 0%
+  margin: -50px 0 0 0
+  opacity: 0
+ 100%
+  margin: 0
+  opacity: 1
+
+@-webkit-keyframes pulse
+ 0%  
+  -webkit-opacity: 0
+  -webkit-transform: scale(0)
+ 25%  
+  -webkit-opacity: 0.1
+  -webkit-transform: scale(0)
+ 50%  
+  -webkit-opacity: 0.3
+  -webkit-transform: scale(0.1)
+ 75%  
+  -webkit-opacity: 0.5
+  -webkit-transform: scale(0.5)
+ 100%  
+  -webkit-opacity: 0
+  -webkit-transform: scale(1)
+@keyframes pulse
+ 0%  
+  opacity: 0
+  transform: scale(0)
+ 25%  
+  opacity: 0.1
+  transform: scale(0)
+ 50%  
+  opacity: 0.3
+  transform: scale(0.1)
+ 75%  
+  opacity: 0.5
+  transform: scale(0.5)
+ 100%  
+  opacity: 0
+  transform: scale(1)
+
+@keyframes flash
+	0% 
+		opacity: .2
+  border-radius: 25%
+  transform: translate(-50%, -50%) rotate(45deg) scale(0.1)
+ 25% 
+		opacity: .8
+  border-radius: 50%
+  transform: translate(-50%, -50%) rotate(90deg)	scale(0.3)
+	50% 
+		opacity: 1
+  border-radius: 100%
+  transform: translate(-50%, -50%) rotate(0deg)
+ 75% scale(1)
+		opacity: .8
+  border-radius: 50%
+  transform: translate(-50%, -50%) rotate(90deg)	scale(0.3)	
+	100% 
+		opacity: .2
+  border-radius: 25%
+  transform: translate(-50%, -50%) rotate(45deg)	scale(0.1)
+@-webkit-keyframes flash
+	0% 
+		-webkit-opacity: .2
+  -webkit-border-radius: 25%
+  -webkit-transform: translate(-50%, -50%) rotate(45deg)	scale(0.1)	
+ 25% 
+		-webkit-opacity: .8	
+  -webkit-border-radius: 50%
+  -webkit-transform: translate(-50%, -50%) rotate(90deg)	scale(0.3)	
+	50% 
+		-webkit-opacity: 1
+  -webkit-border-radius: 100%
+  -webkit-transform: translate(-50%, -50%) rotate(0deg)	scale(1)
+ 75% 
+		-webkit-opacity: .8
+  -webkit-border-radius: 50%
+  -webkit-transform: translate(-50%, -50%) rotate(90deg)	scale(0.3)	
+	100% 
+		-webkit-opacity: .2
+  -webkit-border-radius: 25%
+  -webkit-transform: translate(-50%, -50%) rotate(45deg)	scale(0.1)
+
+//動態小圖動畫(2張)
+@keyframes animate-pic-2
+ 0%
+  background-position: 0 0
+ 50%
+  background-position: 100% 0
+ 100%
+  background-position: 0 0
+
+//動態小圖動畫(6張)
+@keyframes animate-pic-6
+ 0%
+  background-position: 0 0
+ 16.66%
+  background-position: 100% 0
+ 33.33%
+  background-position: 200% 0
+ 50%
+  background-position: 300% 0
+ 66.66%
+  background-position: 400% 0
+ 83.33%
+  background-position: 500% 0
+ 100%
+  background-position: 600% 0
+
+
+//動態小圖動畫(10張)
+@keyframes animate-pic-10
+ 0%
+  background-position: 0 0
+ 10%
+  background-position: 100% 0
+ 20%
+  background-position: 200% 0
+ 30%
+  background-position: 300% 0
+ 40%
+  background-position: 400% 0
+ 50%
+  background-position: 500% 0
+ 60%
+  background-position: 600% 0
+ 70%
+  background-position: 700% 0
+ 80%
+  background-position: 800% 0
+ 90%
+  background-position: 900% 0
+ 100%
+  background-position: 1000% 0
+
+//動態小圖動畫(20張)
+@keyframes animate-pic-20
+ 0%
+  background-position: 0 0
+ 5%
+  background-position: 100% 0
+ 10%
+  background-position: 200% 0
+ 15%
+  background-position: 300% 0
+ 20%
+  background-position: 400% 0
+ 25%
+  background-position: 500% 0
+ 30%
+  background-position: 600% 0
+ 35%
+  background-position: 700% 0
+ 40%
+  background-position: 800% 0
+ 45%
+  background-position: 900% 0
+ 50%
+  background-position: 1000% 0
+ 55%
+  background-position: 1100% 0
+ 60%
+  background-position: 1200% 0
+ 65%
+  background-position: 1300% 0
+ 70%
+  background-position: 1400% 0
+ 75%
+  background-position: 1500% 0
+ 80%
+  background-position: 1600% 0
+ 85%
+  background-position: 1700% 0
+ 90%
+  background-position: 1800% 0
+ 95%
+  background-position: 1900% 0
+ 100%
+  background-position: 2000% 0
+
+//動態小圖動畫(小孩跑步)
+@keyframes run-kids
+ 0%
+  left: 110%
+  transform: translateY(-80px) scale(0.8)
+ 10%
+  transform: translateY(-50px) scale(0.9)
+ 30%
+  transform: translateY(0)  scale(1)
+ 50%
+  transform: translateY(-30px) scale(0.8)
+ 80%
+  transform: translateY(0)  scale(1)
+ 100%
+  left: -10%
+  transform: translateY(0) scale(1)
+
+//動態小圖動畫(煙囪的煙)
+@keyframes smoke
+ 0%
+  // transform: translate(0,0)
+  opacity: 0
+
+ 25%
+  opacity: 1
+ 75%
+  opacity: 1
+  
+ 
+ 100%
+  // transform: translate(10%,-10%)
+  opacity: 0
+@keyframes smoke-move
+ 0%
+  transform: translate(0,0)
+ 100%
+  transform: translate(10%,-10%)
+
+
+

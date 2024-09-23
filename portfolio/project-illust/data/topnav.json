@@ -1,0 +1,75 @@
+[ 
+    {
+        "pageName" : "首頁",
+        "page" : "index",
+        "menu" : [
+            {
+                "title" : "TOP",
+                "titleEN" : "Top",
+                "link" : "#index-top"
+            },{
+                "title" : "專業能力",
+                "titleEN" : "Skill",
+                "link" : "#index-skills"
+            },{
+                "title" : "網頁設計",
+                "titleEN" : "Web Design",
+                "link" : "#index-webproject"
+            },{
+                "title" : "App介面",
+                "titleEN" : "App UI",
+                "link" : "#index-appui"
+            },{
+                "title" : "品牌平面",
+                "titleEN" : "Graphic Design",
+                "link" : "#index-design"
+            },{
+                "title" : "聯繫",
+                "titleEN" : "Contact",
+                "link" : "#index-contact"
+            }
+        ]
+    },
+    {
+        "pageName" : "專案列表",
+        "page" : "project-list",
+        "menu" : [
+            {
+                "title" : "網頁設計",
+                "titleEN" : "Web Design",
+                "link" : "/portfolio/project-web.html"
+            },{
+                "title" : "App介面",
+                "titleEN" : "App UI",
+                "link" : "/portfolio/project-app.html"
+            },{
+                "title" : "品牌平面設計",
+                "titleEN" : "Graphic Design",
+                "link" : "/portfolio/project-design.html"
+            }
+        ]
+    },
+    {
+        "pageName" : "關於我",
+        "page" : "about",
+        "menu" : [
+            {
+                "title" : "簡介",
+                "titleEN" : "",
+                "link" : "#about-intro"
+            },{
+                "title" : "學經歷",
+                "titleEN" : "",
+                "link" : "#about-experience"
+            },{
+                "title" : "專案執行經驗",
+                "titleEN" : "",
+                "link" : "#about-work"
+            },{
+                "title" : "聯繫",
+                "titleEN" : "",
+                "link" : "#contact"
+            }
+        ]
+    }
+]

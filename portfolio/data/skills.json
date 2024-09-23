@@ -1,0 +1,129 @@
+[
+    {
+        "name" : "web",
+        "title" : "網頁設計",
+        "subtitle" : "客製化網站規劃與介面設計",
+        "intro" : "<li>三年 Web 設計經驗，獨立製作10多項商業專案。</li><li>為客戶打造美感與功能兼具的客製化網站</li><li>品牌形象、商品展示、一頁式網站</li>",
+        
+        "button" : [
+            {
+                "link" : "#index-webproject",
+                "pageLink" : "project-web.html",
+                "text" : "See Projects"
+            }
+        ],
+        "project" : [
+            {
+                "title" : "強暉企業官網",
+                "folder" : "johnwell",
+                "imageName" : "web-johnwell.jpg"
+            }
+        ],
+        "listIntro":[
+            {
+                "titleEN" : "Web Projects",
+                "titleCN" : "網頁設計專案",
+                "intro" : "網站企劃、介面設計、RWD 前台切版<br>為客戶打造風格性客製化品牌網站"
+            }
+        ]
+    },{
+        "name" : null,
+        "title" : "前端切版",
+        "subtitle" : "RWD 切版．網站互動",
+        "intro" : "<li>熟悉 HTML5、CSS3、SCSS/SASS，RWD切版</li><li>運用 jQuery、JS 套件，打造網頁互動效果</li><li>與後端工程師溝通協作</li>",
+        
+        "button" : [
+            {
+                "link" : "#index-webproject",
+                "pageLink" : "project-web.html",
+                "text" : "See Projects"
+            }
+        ],
+        "project" : [
+            {
+                "title" : "強暉企業官網",
+                "folder" : "project-web/johnwell/",
+                "imageName" : "web-johnwell.jpg"
+            }
+        ]
+    },{
+        "name" : "app",
+        "title" : "App UI 設計",
+        "subtitle" : "應用程式介面設計",
+        "intro" : "<li>熟悉 Illustrator、Photosohop、Figma</li><li>打造符合美感、功能性、可實現的介面設計</li><li>WireFrame、Prototype</li>",
+        
+        "button" : [
+            {
+                "link" : "",
+                "pageLink" : "project-app.html",
+                "text" : "See Works"
+            }
+        ],
+        "project" : [
+            {
+                "title" : "Music Player App ",
+                "link" : "project-app/music/",
+                "imageName" : "app-music.jpg"
+            }
+        ]
+    },{
+        "name" : "design",
+        "title" : "品牌與平面設計",
+        "subtitle" : "打造品牌視覺",
+        "intro" : "<li>熟悉 Photoshop、Illustrator 設計軟體</li><li>品牌規劃、CIS 設計、平面廣告、排版</li><li>商品修圖、素材合成、印刷流程</li>",
+        
+        "button" : [
+            {
+                "link" : "",
+                "pageLink" : "project-design.html",
+                "text" : "See Projects"
+            }
+        ],
+        "project" : [
+            {
+                "title" : "武雪屋 VI 設計",
+                "link" : "project-design/takeyukiya/",
+                "imageName" : "design-takeyukiya.jpg"
+            }
+        ]
+    },{
+        "name" : "illust",
+        "title" : "插畫繪圖",
+        "subtitle" : "",
+        "intro" : "<li>熟悉 手繪、電繪、向量繪圖</li><li>將插圖應用於廣告設計、介面設計素材、ICON 圖像設計</li>",
+        
+        "button" : [
+            {
+                "link" : "",
+                "pageLink" : "project-illust.html",
+                "text" : "See Works"
+            }
+        ],
+        "project" : [
+            {
+                "title" : "汪老先生",
+                "link" : "project-illust/olddog/",
+                "imageName" : "illust-olddog.jpg"
+            }
+        ]
+    },{
+        "name" : null,
+        "title" : "更多",
+        "intro" : "<li>專案時程管理、客戶溝通、專案提報</li><li>網站後台管理、SEO優化</li><li>網域及虛擬主機設定、上線作業</li>",
+        "button" : [
+            {
+                "link" : "",
+                "pageLink" : "about.html",
+                "text" : "About Me"
+            }
+        ],
+        "project" : [
+            {
+                "title" : "關於我",
+                "link" : "about",
+                "imageName" : "about.jpg"
+            }
+        ]
+    }
+    
+]

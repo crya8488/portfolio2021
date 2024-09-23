@@ -1,0 +1,574 @@
+/* --------轉型正義企劃-------- */
+/* 無法送達的情書 */
+/* 頂部開頭 */
+#loveletter{
+	animation-name: fade-in;
+    animation-duration: 1s;
+	animation-timing-function: ease-in;
+}
+@keyframes fade-in{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+#loveletter p{
+	font-size: 16px;
+}
+#loveletter img{
+	max-width: 100%;
+}
+#loveletter .top{
+	width: 100%;
+	/* height: 300px; */
+	background-image: url(../img/banner.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 50px 20px;
+	text-shadow: 0 0 10px rgba(71,61,56,0.4);
+}
+#loveletter .top-title{
+	font-size: 36px;
+	font-weight: bolder;
+	color: #FFF;
+	text-shadow: 0 0 5px rgba(71,61,56,0.4);
+}
+#loveletter .top-subtitle{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 0 20px 0;
+    color: #FFF;
+    letter-spacing: 1px;
+    text-shadow: 0 0 5px rgba(71,61,56,0.4);
+}
+#loveletter .top-description{
+    color: #FFF;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+    text-shadow: 0 0 5px rgba(71,61,56,0.4);
+}
+/* 時間軸區塊 */
+#loveletter .timeline{
+	width: 100%;
+	max-width: 1200px;
+	padding: 0 40px;
+	margin: 80px auto;
+	position: relative;
+}
+#loveletter .timeline .centerline{
+	position: absolute;
+	left: calc(50% - 0.5px);
+	top: 0;
+	width: 1px;
+	height: 100%;
+	background-color: #c39347;
+	z-index: -1;
+}
+/* 年代名稱 */
+#loveletter .timeline .time-title{
+	/* position: absolute; */
+	background-color: #c39347;
+	padding: 15px 10px;
+	width: 180px;
+	text-align: center;
+	color: #FFF;
+	font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+	margin: 0 auto;
+}
+/* 每一篇 */
+#loveletter .timeline .item-box{
+	/* width: 45%; */
+	width: calc(50% - 40px);
+	padding: 20px;
+	margin: 30px 0;
+	background-color: #FFF;
+	position: relative;
+}
+#loveletter .timeline .item-box.hidden{
+    opacity: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+#loveletter .timeline .item-box:hover{
+	box-shadow: 0 5px 15px rgba(71,61,56,0.1);
+}
+#loveletter .timeline .item-box:nth-child(odd){
+	margin-left: calc(50% + 40px);
+}
+/* 噗浪偷偷說遊戲 */
+#loveletter .timeline .item-box.plurk{
+    background-color: #473d38;
+    color: #FFF;
+}
+/* 時間軸點點 */
+#loveletter .timeline .item-box::before{
+	content: '';
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background-color: #473d38;
+	position: absolute;
+	top: 100px;
+	right: calc(-40px - 5px);
+	transition: .3s;
+}
+#loveletter .timeline .item-box:nth-child(odd)::before{
+	left: calc(-40px - 5px);
+} 
+#loveletter .timeline .item-box:hover::before{
+	background-color: #c39347;
+}
+#loveletter .timeline .item-box.plurk::before{
+	background-color: #c39347;
+}
+/* 箭頭 */
+#loveletter .timeline .item-box::after{
+	content: '';
+	position: absolute;
+	top: 90px;
+	right: -15px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 15px 0 15px 15px;
+	border-color: transparent transparent transparent #FFF;
+}
+#loveletter .timeline .item-box:nth-child(odd)::after{
+	left: -15px;
+	border-width: 15px 15px 15px 0;
+	border-color: transparent #FFF transparent transparent;
+}
+#loveletter .timeline .item-box.plurk::after{
+    border-color: transparent transparent transparent #473d38;
+}
+#loveletter .timeline .item-box.plurk:nth-child(odd)::after{
+    border-color: transparent #473d38 transparent transparent;
+}
+/* 封面圖 */
+#loveletter .timeline .item-box .item-cover{
+	height: 300px;
+	background-position: center;
+	background-size: 100%;
+	margin-bottom: 20px;
+}
+#loveletter .timeline .item-box .item-coverpic{
+	max-width: 100%;
+	margin: 20px auto 0 auto;
+}
+/* 每一篇的內容 */
+#loveletter .timeline .item-box .item-title{
+	font-size: 20px;
+	font-weight: bolder;
+    letter-spacing: 3px;
+    transition: .3s;
+}
+#loveletter .timeline .item-box:hover .item-title{
+    color: #c39347;
+}
+#loveletter .timeline .item-box.plurk:hover .item-title{
+    color: #c39347;
+}
+#loveletter .timeline .item-box .item-content{
+	margin: 20px 0;
+	line-height: 2;
+}
+#loveletter .timeline .item-box .item-more-btn{
+	display: block;
+	/* background-color: #473d38; */
+	padding: 15px;
+	color: #FFF;
+	text-align: center;
+	background-color: #473d38;
+}
+#loveletter .timeline .item-box .item-more-btn:hover{
+    background-color: #c39347;
+    color: #FFF;
+}
+#loveletter .timeline .item-box.plurk .item-title,
+#loveletter .timeline .item-box.plurk .item-content{
+    color: #FFF;
+}
+#loveletter .timeline .item-box.plurk .item-more-btn{
+    color: #473d38;
+    background-color: #FFF;
+}
+#loveletter .timeline .item-box.plurk .item-more-btn:hover{
+    background-color: #c39347;
+    color: #FFF;
+}
+/* FOOTER */
+#loveletter .footer{
+	background-color: #473d38;
+	padding: 60px 40px;
+	text-align: center;
+}
+#loveletter .footer a:hover{
+	opacity: 0.8;
+}
+#loveletter .footer .logo{
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+}
+#loveletter .footer .logo img{
+	width: 100%;
+}
+#loveletter .footer .icon{
+	margin: 20px auto;
+}
+#loveletter .footer .icon a{
+	display: inline-block;
+	width: 30px;
+	margin: 0 5px;
+}
+#loveletter .footer .icon a img{
+	width: 100%;
+}
+#loveletter .footer .cpr{
+	color: #FFF;
+	text-align: center;
+}
+
+/* 轉型正義企劃內頁 */
+#loveletter .article_wrap{
+	padding: 50px 0;
+	max-width: 800px;
+}
+#loveletter .article .title{
+	text-align: center;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+#loveletter .article p{
+	font-size: 16px;
+	line-height: 2;
+}
+
+#loveletter .source{
+	/* border: 3px solid #473d38; */
+	background-color: #FFF;
+	margin: 50px 0;
+}
+#loveletter .source:hover{
+	box-shadow: 0 0 10px rgba(71,61,56,0.2);
+}
+#loveletter .source-top{
+	background-color: #473d38;
+	color: #FFF;
+	padding: 10px;
+	text-align: center;
+	background-color: rgba(71,61,56,0.8);
+	/* background-color: #c39347; */
+}
+#loveletter .source-list{
+	padding: 30px;
+}
+#loveletter .source-list li{
+	border-bottom: 1px solid #979392;
+	padding: 10px 0;
+}
+#loveletter .source-list li:first-child{
+	padding: 0 0 10px 0;
+}
+#loveletter .source-list li:last-child{
+	border-bottom: none;
+	padding: 20px 0 0 0;
+}
+#loveletter .source-list li .source-title{
+	font-size: 18px;
+	font-weight: bolder;
+	/* color: #d1981d; */
+	color: #c39347;
+	border-bottom: 1px solid;
+	position: relative;
+    margin-left: 25px;
+    background: none;
+	/* color: rgba(71,61,56,0.8); */
+}
+#loveletter .source-list li .source-title:hover{
+	/* color: #eac95f;
+	color: #c39347; */
+	opacity: 0.8;
+}
+#loveletter .source-list li .source-title::before{
+	content: url(../img/bookmark.svg);
+	width: 15px;
+	display: inline-block;
+	position: absolute;
+	top: 2px;
+	left: -25px;
+}
+#loveletter .source-list li p{
+	margin-top: 10px;
+}
+#loveletter .source-list li p .line{
+    display: block;
+    width: 100%;
+    height: 1px;
+    /* background-color: #c39347; */
+    margin: 10px auto;
+    border-top: 1px dashed #c39347;
+}
+#loveletter .source-list li .source-more-content{
+    display: none;
+    margin-top: 0;
+}
+#loveletter .source-list li .source-more-content.active{
+	opacity: 1;
+	height: auto;
+}
+#loveletter .source-list li .source-more{
+	font-size: 14px;
+    text-align: center;
+    padding: 5px 0;
+	/* margin-top: 10px; */
+	cursor: pointer;
+	color: rgba(71,61,56,0.8);
+	color: #c39347;
+}
+#loveletter .source-list li .source-more:hover{
+	/* color: #eac95f; */
+	opacity: 0.6;
+}
+#loveletter .source-list li .source-more .arrow{
+	display: inline;
+	vertical-align: middle;
+	width: 10px;
+	margin-left: 5px;
+	transition: .3s;
+}
+#loveletter .source-list li .source-more:hover .arrow{
+	opacity: 0.6;
+}
+#loveletter .source-list li .source-more .arrow.active{
+	transform: rotate(180deg);
+}
+#loveletter .source-list li .source-more .open{
+	display: inline;
+}
+#loveletter .source-list li .source-more .open.active{
+	display: none;
+}
+#loveletter .source-list li .source-more .close{
+	display: none;
+}
+#loveletter .source-list li .source-more .close.active{
+	display: inline;
+}
+#loveletter .btn-box{
+	width: 100%;
+	text-align: center;
+	letter-spacing: 2px;
+}
+#loveletter .btn-box a{
+	display: inline-block;
+	padding: 15px;
+	background-color: #473d38;
+	color: #FFF;
+	text-align: center;
+	width: 30%;
+}
+#loveletter .btn-box a:hover{
+	background-color: #c39347;
+}
+#loveletter .btn-box a img{
+	display: inline-block;
+	width: 8px;
+	margin-bottom: -1px;
+}
+#loveletter .btn-box .btn-prev img{
+	margin-right: 5px;
+}
+#loveletter .btn-box .btn-prev:hover img{
+	transform: translateX(-5px);
+}
+#loveletter .btn-box .btn-next img{
+	margin-left: 5px;
+}
+#loveletter .btn-box .btn-next:hover img{
+	transform: translateX(5px);
+}
+#loveletter .btn-box .btn-prev{
+	float: left;
+}
+#loveletter .btn-box .btn-next{
+	float: right;
+}
+#loveletter .btn-box .btn-back{
+	margin: 0 auto;
+	/* background-color: #c39347; */
+	background-color: rgba(71,61,56,0.8);
+}
+#loveletter .plurk-btn{
+	/* background-color: #ff574d; */
+	/* color: #FFF; */
+	display: block;
+	padding: 15px;
+	/* width: 300px; */
+	margin: 30px auto;
+	text-align: center;
+	border: 3px solid #473d38;
+	letter-spacing: 2px;
+}
+#loveletter .plurk-btn:hover{
+	border: 3px solid #ff574d;
+	color: #ff574d;
+}
+@media screen and (max-width: 1024px){
+	#loveletter p{
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 768px){
+	#loveletter .timeline{
+		margin: 40px auto;
+	}
+	#loveletter .timeline .item-box,
+	#loveletter .timeline .item-box:nth-child(odd){
+		width: 100%;
+		margin-left: 0;
+	}
+	/* #loveletter .timeline .item-box:nth-child(odd){
+		margin-left: 0;
+	} */
+	#loveletter .timeline .item-box::before,
+	#loveletter .timeline .item-box:nth-child(odd)::before{
+		top: -5px;
+		left: 50%;
+    	transform: translateX(-50%);
+	}
+	#loveletter .timeline .item-box::after,
+	#loveletter .timeline .item-box:nth-child(odd)::after{
+		display: none;
+	}
+	#loveletter .timeline .item-box .item-title{
+		text-align: center;
+	}
+}
+@media screen and (max-width: 650px){
+	#loveletter .top{
+		padding: 30px 20px;
+	}
+	#loveletter .top-title{
+		font-size: 30px;
+	}
+	#loveletter .top-subtitle{
+		margin: 0 0 10px 0;
+	}
+	#loveletter .timeline .item-box .item-content{
+		max-height: 135px;
+		overflow-y: hidden;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 4; 
+	}
+	/* 內頁樣式 */
+	#loveletter .article_wrap{
+		padding: 20px 0 30px 0;
+	}
+	#loveletter .source-list{
+		padding: 20px;
+	}
+	#loveletter .btn-box a,
+	#loveletter .btn-box .btn-back{
+		width: 100%;
+		margin: 10px auto;
+		float: none;
+		background-color: #473d38;
+	}
+	#loveletter .btn-box .btn-prev{
+		width: 50%;
+		background-color: rgba(71,61,56,0.8);
+	}
+	#loveletter .btn-box .btn-next{
+		width: 50%;
+	}
+	#loveletter .btn-box a .ttl{
+		display: none;
+	}
+	#loveletter .plurk-btn{
+		border: 3px solid #c39347;
+		color: #c39347;
+	}
+	#loveletter .source{
+		margin: 50px 0 10px 0;
+	}
+	#loveletter .plurk-btn{
+		margin: 10px auto;
+	}
+	#loveletter .footer{
+		padding: 40px 20px 30px 20px;
+	}
+	#loveletter .footer .logo{
+		width: 150px;
+	}
+}
+@media screen and (max-width: 500px){
+    #loveletter .top-description{
+        text-align: justify;
+    }
+    .post {
+        border: 3px solid #473d38;
+    }
+	#loveletter .timeline{
+		padding: 0 20px;
+    }
+    
+	
+}
+@media screen and (max-width: 400px){
+    
+
+	#loveletter .timeline{
+		padding: 0 10px;
+    }
+    #loveletter .timeline .time-title{
+        padding: 10px;
+        width: 160px;
+    }
+    #loveletter .timeline .item-box{
+        padding: 15px;
+    }
+    #loveletter .timeline .item-box::before{
+        width: 8px;
+        height: 8px;
+        top: -4px;
+    }
+    #loveletter .timeline .item-box .item-title{
+        font-size: 18px;
+    }
+    #loveletter .timeline .item-box .item-coverpic{
+        padding: 10px auto 0 auto;
+    }
+    #loveletter .timeline .item-box .item-content{
+        margin: 10px 0 15px 0;
+    }
+    #loveletter .timeline .item-box .item-more-btn{
+        font-size: 14px;
+        padding: 10px;
+    }
+	
+}
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; 
+    padding-top: 10px;
+    height: 0;
+    overflow: hidden;
+}
+    
+.video-container iframe, .video-container object, .video-container embed {
+    position: absolute;
+    top: 0;left: 0;
+    width: 100%;
+    height: 100%;
+}

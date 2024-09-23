@@ -1,0 +1,84 @@
+[
+    {
+        "title" : "Daily Yoga - Sign In",
+        "subtitle" : "登入介面設計・Prototype",
+        "folder" : "ui01",
+        "introText" : "",
+        "info": [
+            {
+                "intro" : "使用軟體：Figma<br><br>Daily UI Challenge ，設計一組 App 登入、註冊介面。<br>我選擇瑜珈 App 為主題，藍色及粉色漸層色彩搭配柔和的曲線，展現瑜珈柔美感。<br>在 App 入口頁使用者可以看到註冊、登入按鈕，或是使用 Facebook / Google 帳號連動登入。<br>以 Demo 動態效果的 Prototype，呈現點擊按鈕、拖曳區塊時不同介面的切換方式。<br><br>",
+                "designTool" : "Figma",
+                "url" : "https://www.figma.com/file/pDsj7iPmS4pjjcWLi8xkdw/Daily-UI?node-id=0%3A1"
+            }
+        ],
+        "detailImg":["prototype.gif","pic1.jpg","pic2.jpg","pic3.jpg"]
+    },
+    {
+        "title" : "Credit Card Checkout",
+        "subtitle" : "App 信用卡付款介面設計",
+        "folder" : "ui02",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "introText" : "",
+        "webType":"",
+        "info": [
+            {
+                "intro" : "使用軟體：Figma<br><br>Daily UI Challenge ，設計一組信用卡付款相關介面。",
+                "designTool" : "Figma",
+                "url" : "https://www.figma.com/file/pDsj7iPmS4pjjcWLi8xkdw/Daily-UI?node-id=0%3A1"
+            }
+        ],
+        "detailImg":["pic1.jpg","pic2.jpg","pic3.jpg"]
+    },
+    {
+        "title" : "Recipe SNS App",
+        "subtitle" : "個人檔案、設定頁面設計",
+        "folder" : "ui03",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "introText" : "",
+        "webType":"",
+        "info": [
+            {
+                "intro" : "使用軟體：Figma<br><br>Daily UI Challenge ，設計一組個人檔案介面、設定頁面。",
+                "designTool" : "Figma",
+                "url" : "https://www.figma.com/file/pDsj7iPmS4pjjcWLi8xkdw/Daily-UI?node-id=0%3A1"
+            }
+        ],
+        "detailImg":["pic1.jpg","pic2.jpg"]
+    },
+    {
+        "title" : "Calculator",
+        "subtitle" : "計算機介面設計",
+        "folder" : "ui04",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "introText" : "",
+        "webType":"",
+        "info": [
+            {
+                "intro" : "使用軟體：Figma<br><br>Daily UI Challenge ，設計一組計算機 App 介面。",
+                "designTool" : "Figma",
+                "url" : "https://www.figma.com/file/pDsj7iPmS4pjjcWLi8xkdw/Daily-UI?node-id=0%3A1"
+            }
+        ],
+        "detailImg":["pic1.jpg"]
+    },
+    {
+        "title" : "Music Player",
+        "subtitle" : "音樂播放介面設計",
+        "folder" : "ui05",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "introText" : "",
+        "webType":"",
+        "info": [
+            {
+                "intro" : "使用軟體：Figma<br><br>Daily UI Challenge ，設計一組音樂播放介面。",
+                "designTool" : "Figma",
+                "url" : "https://www.figma.com/file/pDsj7iPmS4pjjcWLi8xkdw/Daily-UI?node-id=0%3A1"
+            }
+        ],
+        "detailImg":["pic1.jpg","pic2.jpg","pic3.jpg","pic4.jpg"]
+    }
+]

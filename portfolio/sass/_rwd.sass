@@ -1,0 +1,614 @@
+@media screen and ( max-width: 1200px ) and (min-width: 1025px)
+    #index-top
+        .title
+            h1
+                font-size: 2rem
+        .intro
+            h4
+                font-size: 1rem
+            span
+                font-size: .9em
+@media screen and ( max-width: 1024px )
+    body
+        font-size: 14px
+        h1
+            font-size: 36px
+        h2
+            font-size: 30px
+        h3
+            font-size: 20px
+        h4
+            font-size: 18px
+        h5
+            font-size: 14px
+        h6
+            font-size: 12px
+        p
+            font-size: 14px
+        //     line-height: 1.8
+        a
+            font-size: 14px
+    
+    #index-page
+        background-image: url('/portfolio/img/bgpic-m.jpg')
+
+    #top
+        background-image: url(../img/index/main-m-bg.jpg)
+        background-attachment: scroll
+        #mainvisual
+            img
+                &.pc
+                    display: none
+                &.mb
+                    display: block
+        .title
+            top: 20%
+            left: 5%
+            transform: none
+            text-align: left
+            max-width: 60%
+            h5
+                opacity: .6
+
+    header
+        
+        #web-nav
+            #menu-btn
+                background-color: $color-primery
+                li
+                    background-color: #fff!important
+                &.active
+                    background: none!important
+                    right: 0
+        &.dark
+            #logo a
+                background-image: url(../img/index/name.png)
+            #web-nav
+                #menu-btn
+                    background-color: $color-primery-dark
+
+            &.index-top
+                #logo a
+                    background-image: url(../img/index/name-w.png)
+                #web-nav #menu-btn
+                    background: none
+                    // li
+                    //     background-color: $color-primery
+        
+        #top-nav
+            bottom: 0
+            overflow-x: hidden
+            background-color: rgba(#fff,.9)
+            box-shadow: 0 0 4px rgba($color-primery,.1)
+            ::-webkit-scrollbar
+                width: 0
+                height: 0
+            >ul
+                width: 100%
+                white-space: nowrap
+                overflow-x: auto
+                justify-content: flex-start
+                
+                >li
+                    width: 100%
+                    >a
+                        padding: 8px 16px
+                        justify-content: center
+                        width: 100%
+    
+
+    #gotop.active
+        bottom: 60px
+
+    #index-top
+        .pic
+            padding-bottom: 120%
+            // .desk
+            //     height: 38%
+            .me
+                width: 55%
+                left: auto
+                right: 5%
+                bottom: 25%
+            .plant1
+                // width: 55%
+                width: 70%
+                left: -10%
+                bottom: 25%
+            .plant2
+                width: 65%
+                right: -40%
+            .macbook
+                width: 70%
+                left: -14%
+                bottom: 18%
+            .meal
+                width: 40%
+                left: auto
+                right: 0
+                bottom: 10%
+                display: none
+            .cat
+                width: 53%
+                bottom: 0%
+                right: 3%
+                // left: -7%
+        .title
+            width: 40%
+            padding-bottom: 16%
+            top: 11%
+            right: auto
+            left: 23%
+            h1
+                font-size: 2rem
+            &::before
+                transform: scaleX(-1) rotate(-2deg)
+        .intro
+            width: 50%
+            padding-bottom: 35%
+            top: 24%
+            left: 8%
+            h4
+                left: 50%
+            &::before
+                transform: scaleX(-1)
+
+    .card-list-block
+        > li > a, > div
+            padding: 16px
+            border-radius: 20px
+            .text-box
+                padding: 12px
+                margin-left: 12px
+                h3,h4
+                    margin-bottom: 12px
+
+    .btn-dark, .btn-light
+        padding: 8px 16px
+    .deco-flow-wrap
+        padding-bottom: 200px!important
+    .project-focus-wrap
+        .title-box
+            padding: 80px 40px 200px 40px
+            margin-bottom: -220px
+    // #index-skills
+    //     .card-list-block 
+    //         > div
+    //             .pic-box
+    //                 width: 70%
+    #index-webproject
+        .swiper-project
+            .swiper-slide
+                img
+                    margin-top: 0
+                .swiper-button-prev,.swiper-button-next
+                    top: 55%
+
+    #about-page
+        .about-box
+            .pic
+                width: 40%
+            .text
+                width: 60%
+    .swiper-project
+        .swiper-slide
+            img
+                width: 90%
+                top: 10%
+                left: 5%
+            &::after
+                padding-bottom: 50%
+        
+    #project-page
+        #project-top
+            padding-bottom: 0
+
+@media screen and ( max-width: 768px )
+    .content-width
+        padding-left: 40px
+        padding-right: 40px
+    // .card-list-block
+    //     &#skillList
+    //         .pic-box
+    //             width: 60%
+    //             &::before
+    //                 padding-top: 100%
+    .title-box
+        margin: 20px 0
+    #index-top
+        .pic
+            padding-bottom: 150%
+            .me
+                width: 65%
+                right: 1%
+                z-index: 4
+        .title
+            width: 60%
+            padding-bottom: 30%
+            top: 6%
+            left: 10%
+        .intro
+            width: 100%
+            padding-bottom: 55%
+            left: -16%
+            top: 18%
+            &::before
+                opacity: .9
+            h4
+                width: 60%
+                left: 55%
+
+    #index-skills .switch-tab-wrap
+        margin: 0
+    .card-list-block.rows.three
+        >li,>div
+            width: calc((100% - 32px)/2)
+            margin-right: 32px
+            flex-wrap: wrap
+            &:nth-child(2n)
+                margin-right: 0
+    #project-overview-box
+        > div
+            flex-wrap: wrap
+            .time-line
+                width: 100%
+                display: flex
+                flex-wrap: wrap
+                margin-bottom: 40px
+                li
+                    width: 50%
+                    .content.tool
+                        padding-bottom: 12px
+                    &:last-child
+                        .content::after
+                                opacity: 1
+
+            .toggle-list
+                width: 100%
+
+    #about-page
+        .bg-deco-1,.bg-deco-2
+            display: none
+        .col-2
+            max-width: 500px
+            margin-left: auto
+            margin-right: auto
+            >li,>div
+                width: 100%
+                &:nth-child(odd)
+                    margin-right: 0
+        .detail-wrap > .about-box
+            width: 100%
+            &:nth-child(n)
+                margin-right: 0
+        #about-intro
+            .content-width
+                padding: 0
+            .about-box
+                margin-bottom: -80px
+            .pic
+                width: 100%
+                height: 300px
+                border-radius: 0
+            .text
+                width: 100%
+                max-width: 600px
+                margin: 0 auto
+        #about-experience
+            .col-2
+                >li,>div
+                    margin-bottom: 60px
+
+    #index-webproject
+        .swiper-project
+            .swiper-button-prev
+                top: 60%
+                left: 5px
+            .swiper-button-next
+                top: 60%
+                right: 5px
+
+    .swiper-project
+        .swiper-slide
+            img
+                width: 100%
+                top: 20%
+                left: 0
+            &::after
+                padding-bottom: 55%
+        
+                
+
+@media screen and ( max-width: 640px )
+    body
+        h1
+            font-size: 3em
+            line-height: 1
+
+    header 
+        #logo
+            width: 120px
+        
+            #web-nav-menu
+                width: 100%
+                .logo
+                    display: none
+
+                > ul
+                    margin-top: 0
+                    max-height: 100%
+                    > li
+                        &:last-child
+                            border-bottom: none
+                        > a
+                            justify-content: center
+                            font-size: 16px
+                            &::before,&::after
+                                display: block
+                                width: 4px
+                                margin: 0 16px
+                                opacity: .5
+                                
+                            &:hover
+                                &::before,&::after
+                                    width: 30px
+                                    opacity: 1
+    
+    footer
+        padding: 40px 20px 80px 20px
+        .logo
+            width: 140px
+        .webmap
+            flex-wrap: wrap
+            justify-content: space-around
+            li
+                padding: 8px 0
+                width: calc( 50% - 8px )
+                border-right: none
+                border-bottom: 1px solid $color-primery-tint
+                a
+                    display: block
+                    width: 100%
+
+    .content-width
+        padding-left: 30px
+        padding-right: 30px
+
+    .title-box
+        h2
+            margin: 8px 0
+
+    #top
+        padding-top: 15vh
+        .title
+            top: 17%
+            padding: 0
+            max-width: 300px
+            left: 50%
+            transform: translateX(-50%)
+            text-align: center
+
+    #index-top
+        .title
+            h1
+                font-size: 1.5rem
+        .intro
+            h4
+                font-size: 1rem  
+    
+    #index-skills
+        .swiper-container
+            padding-bottom: 0
+        .card-list-block
+            > div .text-box 
+                h3
+                    font-size: 20px
+                    margin-top: -2em
+    
+    #index-contact
+        padding: 80px 0
+    .deco-flow-wrap
+        padding-bottom: 120px !important
+        &::after
+            transform: scale(1,.6)
+        &:nth-child(odd)::after
+            transform: scale(-1,.6)
+    .bg-deco-3,.bg-deco-4
+        display: none
+    section[id^="index"] .btn-block
+        margin-top: 20px
+
+    .card-list-block
+        > li > a, > div
+            padding: 12px
+            border-radius: 12px
+            .pic-box
+                border-radius: 8px
+            .text-box
+                margin-top: 12px
+                padding: 12px
+                // margin-left: 12px
+                h3,h4
+                    margin-bottom: 8px
+                    font-size: 18px
+                p
+                    font-size: 12px
+                    text-align: center
+                a,span
+                    &[class^="btn"]
+                        font-size: 14px
+                        border-radius: 10px
+                        width: 100%
+                        text-align: center
+
+        &.rows,&.rows.three
+            >li, >div
+                width: 100%
+                &:nth-last-child(n)
+                    margin-right: 0
+                    
+    #list-page
+        .card-list-block.rows
+            
+            > li:nth-child(n)
+                width: 100%
+                padding: 0
+
+    #project-overview-box
+        > div
+            .time-line
+                li
+                    width: 100%
+                    &:last-child
+                        .content::after
+                                opacity: 0
+
+    #design-detail
+        .content-width
+            padding-left: 20px
+            padding-right: 20px
+            img
+                margin: 5px 0
+            h4
+                color: $color-primery
+                margin: 5px 0
+                margin-top: 30px
+        &::after 
+            height: 120px
+            margin: 60px auto
+
+    #moreList
+        .card-list-block
+            >li:first-child
+                order: 3
+
+@media screen and ( max-width: 500px )
+    body
+        h1
+            font-size: 2.5em
+        h2
+            font-size: 26px
+        h4
+            font-size: 16px
+    header
+        #logo,#top-nav
+            height: 50px
+        #web-nav #menu-btn
+            width: 50px
+            height: 50px
+            padding: 8px 12px
+
+    #index-top
+        .pic
+            padding-bottom: 160%
+            .desk
+                border-width: 3px
+            .me
+                width: 60%
+                bottom: 26%
+        .title,.intro
+            color: #fff
+            transform: none
+            top: auto
+            left: auto
+            right: auto
+            width: auto
+            height: auto
+            position: relative
+            padding: 0
+            text-align: left
+            &::before
+                display: none
+            h1,h4
+                position: relative
+                width: 100%
+                top: auto
+                left: auto
+                color: #fff
+                transform: none
+                span
+                    color: #fff
+
+
+        .top-text
+            position: absolute
+            width: 100%
+            top: 60px
+            left: 0
+            padding: 30px
+            .title
+                margin-bottom: 20px
+                h1
+                    display: inline-block
+                    width: auto
+                    padding-bottom: 8px
+                    border-bottom: 3px solid $color-primery-tint
+                    font-size: 2rem
+            .intro
+                width: 70%
+                opacity: .8
+                z-index: 5
+
+    #project-overview-box
+        > div
+            .time-line
+                li
+                    width: 100%
+                    .content
+                        margin-left: 12px
+                        padding-left: 20px
+                        padding-bottom: 20px
+                        padding-top: 2px
+    
+    .swiper-project 
+        .swiper-slide 
+            .title-btn
+                padding: 12px 18px    
+                &::after
+                    width: 16px
+                    height: 16px
+                    bottom: -12px
+    // .swiper-button-next,.swiper-button-prev
+    //     &::after
+    //         font-size: 28px
+    .swiper-container 
+        .swiper-button-next, .swiper-button-prev
+            width: 30px
+            height: 30px
+            color: #fff
+            background-color: $color-primery
+            border-radius: 30px
+            // box-shadow: 0 0 8px rgba($color-primery,.5)
+            &::after
+                font-size: 12px
+
+    .toggle-list
+        .toggle-title
+            padding: 8px 12px
+            margin-bottom: 4px
+        .toggle-content
+            padding: 8px 12px
+            padding-bottom: 40px
+    .btn-primary
+        width: 100%  
+    #about-page
+        #about-intro .pic
+            height: 240px
+        .time-line
+            li
+                .content  
+                    margin-left: 12px
+                    padding-left: 24px
+                    h5
+                        font-size: 16px    
+
+@media screen and ( max-width: 375px )
+    #index-top
+        .top-text
+            padding: 10px 30px
+        .title
+            h1
+                font-size: 1.7rem
+        .intro
+            h4
+                font-size: .9rem

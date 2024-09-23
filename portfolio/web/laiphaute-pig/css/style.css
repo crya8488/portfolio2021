@@ -1,0 +1,395 @@
+ body{ font-size:18px; font-family: Microsoft JhengHei,Arial, Helvetica,sans-serif,nsimsun; color:#333; position:relative;}
+a{ color:#333; }
+a:hover{ color: #666; /*color:#c8b074;*/}
+* { 
+ -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+ -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+ box-sizing: border-box;         /* Opera/IE 8+ */
+}
+input,textarea{
+	font-size:18px; font-family: Microsoft JhengHei,Arial, Helvetica,sans-serif,nsimsun; color:#333; 
+}
+/*--------------------------------------------*/
+body{
+	background: #eee;
+	background: url(../img/bg01.jpg);
+	background-position: center top;
+}
+.title{
+	width: 750px;
+	max-width: calc(100% - 40px);
+	margin: 15px auto -60px auto;
+}
+.main{
+	width: calc(100% - 60px);
+	max-width: 1000px;
+	margin: 100px auto 0 auto;
+	position: relative;
+}
+
+/*---------------作答倒數計時---------------*/
+.time{
+	width: calc(100% - 60px);
+	max-width: 320px;
+	text-align: center;
+	padding: 20px;
+	margin: 10px auto;
+	font-size: 24px;
+	font-weight: bold;
+	background: #635256;
+	border-radius: 50px;
+	color: #FFF;
+	position: relative;
+}
+.time::after{
+	z-index: -1;
+    position: absolute;
+    border-style: solid;
+    border-width: 14px 14px 0 14px;
+    border-color: #635256 transparent transparent transparent;
+    content: "";
+    left: 50%;
+    bottom: -11px;
+    transform: translateX(-50%);
+}
+.time span{
+	color: #e9c85f;
+	-webkit-animation:color 1s infinite ;
+}
+.pig{
+	width: 380px;
+	position: absolute;
+	top: -130px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.startbox{
+	padding: 30px;
+	border-radius: 20px;
+	background: #FFF;
+	transition:.2s;
+	text-align: center;
+	width: 100%;
+	max-width: 800px;
+    margin: -70px auto 0 auto;
+}
+.startbox:hover{
+	box-shadow: 0 10px 20px #ccc;
+}
+.startbox img{
+	width: 100%;
+	border-radius: 15px;
+	margin-bottom: 20px;
+}
+.startbox h1{
+	font-size: 36px;
+	font-weight: bolder;
+	padding: 20px 10px;
+	color: #ff88a1;
+	margin-top: -25px;
+}
+.startbox h4{
+	font-size: 18px;
+	line-height: 1.5;
+}
+.startbox a.btn_start{
+	display: block;
+	padding: 20px;
+	margin:20px auto ;
+	width: 300px;
+	background: #ff88a1;
+	border-radius: 50px;
+	color: #FFF;
+	font-size: 30px;
+	font-weight: bold;
+	box-shadow: 0 10px 0 #ffb5c5;
+	transition: .3s;
+}
+.startbox a.btn_start:hover{
+	margin:30px auto 10px auto;
+	background: #fc7793;
+	box-shadow: 0 0 0 #ffb5c5;
+}
+/*-----------------題目區塊-----------------*/
+.quesbox{
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	border-radius: 20px;
+	background: #FFF;
+	transition:.2s;
+}
+.quesbox:hover{
+	box-shadow: 0 10px 20px #ccc;
+}
+.quesbox .pic{
+	width: 44%;
+	margin: 20px;
+	order: -1;
+}
+.quesbox .pic img{
+	width: 100%;
+	border-radius: 10px;
+}
+.quesbox .ques{
+	width: 55%;
+	padding: 20px;
+	/*flex: 2;*/
+}
+.quesbox .ques h2{
+	font-size: 24px;
+	line-height: 1.5;
+	font-weight: bold;
+	color: #473c38;
+}
+.quesbox .ques h2::before{
+	content: 'Q : ';
+}
+.ques .option li{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	padding: 15px;
+	margin: 15px 0;
+	border-radius: 10px;
+	font-size: 24px;
+	transition:.3s;
+	background: #635256;
+	color: #FFF;
+}
+.ques .option li:hover{
+	color: #e9c85f;
+	background: #473c38;
+}
+/*點選答對*/
+.ques .option li.active{
+	background: #8dc447;
+	position: relative;
+}
+.ques .option li.active::before{
+	content: url(../img/icon_o.png);
+	font-size: 16px;
+	opacity: 0.8;
+	position: absolute;
+	top: 50%;
+	left: -30px;
+	transform: translateY(-50%);
+}
+/*點選答錯*/
+.ques .option li.wrong{
+	background: #ff6565;
+	position: relative;
+}
+.ques .option li.wrong::before{
+	content: url(../img/icon_x.png);
+	font-size: 16px;
+	opacity: 0.8;
+	position: absolute;
+	top: 50%;
+	left: -30px;
+	transform: translateY(-50%);
+}
+
+/*----------------------------------------*/
+.btn_next{
+	width: 100%;
+	text-align: center;
+}
+.btn_next a{
+	display: block;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 10px 30px;
+	border-radius: 20px;
+	border: 1px solid #ccc;
+	margin: 20px 0;
+	color: #999;
+}
+.btn_next a:hover{
+	background: #ccc;
+}
+.btn_next a.active{
+	color: #473c38;	
+}
+.btn_next .hint{
+	font-size: 16px;
+	color: #666;
+}
+
+
+
+/*----------------FOOTER----------------*/
+.deco{
+	width: 100%;
+	height: 9px;
+	background: url(../img/top_deco2.png);
+	background-position: center;
+	margin-top: 50px;
+}
+.footer{
+	width: 100%;
+	padding: 20px;
+	/*margin-top: 50px;*/
+	/*border-top: 1px dashed #ccc;*/
+	background: #ff88a1;
+	background: #473c38;
+
+}
+.footer .logo{
+	width: 200px;
+	padding: 10px;
+	margin: 0 auto;
+}
+.copyright{
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-align: center;
+	color: #FFF;
+	opacity: 0.6;
+}
+
+/*-----------------------*/
+
+/*倒數秒數變色*/
+@-webkit-keyframes color {
+	0% {
+		color: #e9c85f;
+	}
+	50%{
+		color: #ff88a1;
+	}
+	100% {
+		opacity: #e9c85f;
+	}
+}
+
+/*-------------------------*/
+/*廣告區塊*/
+.ad_area{
+	max-width: 720px;
+	width: 100%;
+	margin: 20px auto;
+}
+.ad_box{
+	width: 100%;
+	max-width: 720px;
+	height: 90px;
+	background: #aaa;
+	margin: 0 auto;
+}
+/*--------------------------------*/
+/*結束畫面*/
+.endbox{
+	padding: 30px;
+	border-radius: 20px;
+	background: #FFF;
+	transition:.2s;
+	text-align: center;
+	width: 100%;
+	max-width: 800px;
+    margin: -70px auto 0 auto;
+}
+.endbox:hover{
+	box-shadow: 0 10px 20px #ccc;
+}
+.endbox img.endpic{
+	width: 100%;
+	border-radius: 15px;
+	margin-bottom: 20px;
+}
+.endbox h1{
+	font-size: 20px;
+	font-weight: bolder;
+	padding: 10px;
+	color: #ff88a1;
+	margin-top: -25px;
+}
+.endbox h2{
+	font-size: 36px;
+	color: #635256;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.endbox h2 span{
+	color: #ff88a1;
+	border-bottom: 2px dashed #ff88a1;
+}
+.endbox h4{
+	font-size: 18px;
+	line-height: 1.5;
+	text-align: left;
+}
+.endbox .lottery{
+	border-top: 2px dashed #ff88a1;
+	padding: 20px 0;
+}
+.endbox .lottery img{
+	width: 100%;
+	border-radius: 10px;
+	transition: .3s;
+}
+.endbox .lottery img:hover{
+	box-shadow: 0 10px 10px #ffd7df;
+}
+.endbox .lottery h5{
+	font-size: 24px;
+	font-weight: bold;
+	color: #ff88a1;
+	margin-bottom: 20px;
+}
+.endbox .lottery h6{
+	text-align: left;
+}
+.endbox a.btn{
+	display: inline-block;
+	padding: 20px;
+	margin:20px 10px;
+	width: 200px;
+	border-radius: 10px;
+	color: #FFF;
+	font-size: 24px;
+	font-weight: bold;
+	transition: .3s;
+}
+.endbox a.btn img{
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.endbox a.btn p{
+	display: inline-block;
+	vertical-align: middle;
+}
+.endbox a.download{
+	background: #8dc447;
+	/*box-shadow: 0 10px 0 #7cb436;*/
+}
+.endbox a.download:hover{
+	background: #7cb436;
+	/*box-shadow: 0 0 0 #7cb436;*/
+}
+.endbox a.share{
+	background: #4267b2;
+	/*box-shadow: 0 10px 0 #2e4e89;*/
+}
+.endbox a.share:hover{
+	background: #2e4e89;
+	/*box-shadow: 0 0 0 #2e4e89;*/
+}
+.endbox a.share::before{
+	/*content: url(../img/fb.png);*/
+	/*left: 0;
+	top: 50%;
+	transform: translateY(50%);*/
+}
+.endbox a.again{
+	background: #ff88a1;
+	border-radius: 50px;
+	/*box-shadow: 0 10px 0 #ffb5c5;*/
+}
+.endbox a.again:hover{
+	background: #ffb5c5;
+	/*background: #fc7793;*/
+	/*box-shadow: 0 0 0 #ffb5c5;*/
+}

@@ -1,0 +1,585 @@
+[
+    {
+        "title" : "汪老先生・友善老犬品牌",
+        "subtitle" : "品牌企劃・平面設計・插畫",
+        "folder" : "olddog",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "colorStyle" : "lighter",
+        "introText" : "快樂老犬 伴你終老 ——  I WILL ACCOMPAANY YOU TILL THE END.",
+        "info": [
+            {
+                "time" : "",
+                "work" : "",
+                "designTool" : "",
+                "webTool" : "",
+                "url" : ""
+            }
+        ],
+        "detail":[
+            {
+                "title" : "緣起",
+                "content" :"在台灣，飼養犬隻的家庭越來越多，又由於動物醫療的進步，寵物的壽命越來越長。<br>然而並非每個人都了解如何照顧家中漸漸衰老的狗兒，因此許多老犬疾病纏身，甚至被主人嫌麻煩丟棄在外。<br>我們藉由大學畢業製作的機會，打造一個關懷、友善老犬的品牌，透過插圖與資訊整合，在網路平台推廣飼養老犬的正確觀念，並輔以協助老犬保健的產品設計，讓每位飼主都能快樂地陪伴老犬直到終老。<br>",
+                "img" : "001.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"以品牌核心：「快樂老犬，健康到老」進行視覺規劃<br>運用橘黃、藍、綠等明亮的色彩，營造溫暖的氛圍<br>並以圓潤的色塊繪製飼主與老犬互動的插圖，透過圖畫內容傳達老犬保健知識<br>鮮豔豐富的色彩尤其可以吸引孩童，從小開始培養正確飼養觀念",
+                "img" : "002.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "003.webp"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "004.webp"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "005.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "006.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "007.jpg"
+            },
+            {
+                "title" : "網站",
+                "content" :"透過網站將資訊視覺化，使飼主輕鬆獲得老犬保健與照護的正確資訊。",
+                "img" : "008.jpg"
+            },
+            {
+                "title" : "建築設計",
+                "content" :"規劃老犬快樂園區，在零安樂政策實施後，使收容所中的老犬有個安養老年的快樂場所",
+                "img" : "009.webp"
+            }
+        ]
+        
+    },
+    {
+        "title" : "武雪屋長崎蛋糕",
+        "subtitle" : "Logo・CIS・平面設計",
+        "folder" : "takeyukiya",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "colorStyle" : "lighter",
+        "introText" : "",
+        "webType":"",
+        "info": [
+            {
+                "time" : "",
+                "work" : "",
+                "designTool" : "",
+                "webTool" : "",
+                "url" : ""
+            }
+        ],
+        "detail":[
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic1.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic2.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic3.jpg"
+            },
+            {
+                "title" : "視覺規範手冊",
+                "content" :"",
+                "img" : "pic4.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "vi01.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "vi02.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "vi03.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "vi04.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "vi05.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "vi06.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "vi07.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "vi08.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "vi09.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "vi10.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "vi11.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "vi12.jpg"
+            }
+        ]
+        
+    },
+    {
+        "title" : "華歌爾 Banner 廣告設計",
+        "subtitle" : "Banner圖設計 & Resize",
+        "folder" : "wacol",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "colorStyle" : "lighter",
+        "introText" : "根據客戶提供之素材與資料，設計一組 11~15張的 Banner 廣告圖",
+        "webType":"",
+        "info": [
+            {
+                "time" : "",
+                "work" : "",
+                "designTool" : "",
+                "webTool" : "",
+                "url" : ""
+            }
+        ],
+        "detail":[
+            {
+                "title" : "根據客戶提供之素材與資料，設計華歌爾 Banner 廣告圖",
+                "content" :"廣告圖以不同尺寸應用在官網、各商城通路、線上廣告等等。<br>設計工作包含：素材去背、版面編排、Resize，考量廣告內容搭配合適的風格設計，並注意文字的大小、色彩對比度等會影響可讀性的要素。<br><br> ＊每個月製作 3 ~ 6 組，一組 11 ~ 15 張，我通常在 1 ~ 2 天內完成設計製作。",
+                "img" : "pic1.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic2.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic3.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic4.jpg"
+            }
+        ]
+        
+    },
+    {
+        "title" : "華歌爾 EDM 設計",
+        "subtitle" : "Banner圖設計 & Resize",
+        "folder" : "wacol-edm",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "colorStyle" : "lighter",
+        "introText" : "",
+        "webType":"",
+        "info": [
+            {
+                "time" : "",
+                "work" : "",
+                "designTool" : "",
+                "webTool" : "",
+                "url" : ""
+            }
+        ],
+        "detail":[
+            {
+                "title" : "華歌爾 EDM 設計",
+                "content" :"根據客戶提供之主視覺檔案、素材與資料，進行線上型錄 EDM 設計，一共三款。",
+                "img" : "cover2.jpg"
+            },
+            {
+                "title" : "運動記型",
+                "content" :"以活力的橘色調、線條、傾斜的色塊版型，表現運動的動態感。",
+                "img" : "pic1.jpg"
+            },
+            {
+                "title" : "輕柔記型",
+                "content" :"以輕柔的馬卡龍色調、曲線、透明感，呈現柔軟的少女風格。",
+                "img" : "pic2.jpg"
+            },
+            {
+                "title" : "挺舒服",
+                "content" :"此款商品為成熟的蕾絲款式，因此以雅棕、淡金、蕾絲裝飾邊條，呼應產品風格。",
+                "img" : "pic3.jpg"
+            }
+        ]
+        
+    },
+    {
+        "title" : "跟著浪浪汪一下 ・雲科汪汪特展",
+        "subtitle" : "活動企劃・CIS・平面設計",
+        "folder" : "woofwithdog",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "colorStyle" : "lighter",
+        "introText" : "",
+        "webType":"",
+        "info": [
+            {
+                "time" : "",
+                "work" : "",
+                "designTool" : "",
+                "webTool" : "",
+                "url" : ""
+            }
+        ],
+        "detail":[
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "banner.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic1.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic2.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic3.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic4.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "cover2.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "photo1.jpg"
+            }
+        ]
+        
+    },
+    {
+        "title" : "就是愛撿便便・桌遊設計",
+        "subtitle" : "遊戲設計・視覺設計・平面設計・插畫",
+        "folder" : "dogpoop",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "colorStyle" : "lighter",
+        "introText" : "這是一個狗狗不斷大便、飼主一直撿大便的遊戲！",
+        "webType":"",
+        "info": [
+            {
+                "time" : "",
+                "work" : "",
+                "designTool" : "",
+                "webTool" : "",
+                "url" : ""
+            }
+        ],
+        "detail":[
+            
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic1.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic2.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic3.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic4.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic5.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic6.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic7.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic8.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic9.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic10.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic11.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic12.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic13.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic14.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic15.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic16.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic17.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic18.jpg"
+            }
+        ]
+        
+    },
+    {
+        "title" : "喵星謎團・浪貓TNvR 實境遊戲插畫設計",
+        "subtitle" : "遊戲插畫設計 包裝設計",
+        "folder" : "catplanet",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "colorStyle" : "lighter",
+        "introText" : "由「台灣之心愛護動物協會」發起為全台 200 隻街頭流亡的喵星人募集 TNvR （捕捉-絕育-放回）經費的計畫，希望讓街貓的痛苦在這一代止息。",
+        "webType":"",
+        "info": [
+            {
+                "time" : "",
+                "work" : "",
+                "designTool" : "",
+                "webTool" : "",
+                "url" : ""
+            }
+        ],
+        "detail":[
+            
+            {
+                "title" : "",
+                "content" :"本專案於2016年上架嘖嘖進行募資，達成176萬的募資金額。<br> <a href='https://www.zeczec.com/projects/hotactnr' target='_blank'>【嘖嘖】喵星人守護者募集 - 玩遊戲推廣街貓絕育！</a>" ,
+                "img" : "pic1.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic2.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic3.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic4.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic5.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic6.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic7.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic8.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic9.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic10.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic11.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic12.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic13.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic14.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic15.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "pic16.jpg"
+            }
+        ]
+        
+    },
+    {
+        "title" : "2016 大動連年會主視覺設計",
+        "subtitle" : "插畫・平面設計",
+        "folder" : "capn",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "colorStyle" : "lighter",
+        "introText" : "一年一度的「大學動物保護社團連線年會」以「你我他的烏托邦」為主題，期望創造一個人類與動物和平共處的社會。",
+        "webType":"",
+        "info": [
+            {
+                "time" : "",
+                "work" : "",
+                "designTool" : "",
+                "webTool" : "",
+                "url" : ""
+            }
+        ],
+        "detail":[
+            
+            {
+                "title" : "",
+                "content" :"海報設計、Facebook宣傳圖片設計、活動文宣印刷品設計。" ,
+                "img" : "pic1.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"講者募集宣傳圖",
+                "img" : "pic2.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"活動報名倒數宣傳圖",
+                "img" : "pic3.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"制服 T-shirt 設計",
+                "img" : "pic4.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"感謝狀設計",
+                "img" : "pic5.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"研習證書設計",
+                "img" : "pic6.jpg"
+            },
+            {
+                "title" : "活動用插畫設計",
+                "content" :"",
+                "img" : "pic7.jpg"
+            }
+        ]
+        
+    }
+]
