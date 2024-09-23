@@ -1,0 +1,81 @@
+:root {
+  --bg-color: #ffffff;
+  --bg-color-rgb: 255,255,255;
+  --main-color: #b45834;
+  --main-rgb: 180, 88, 52;
+  --subcolor: #827a74;
+  --subcolor-rgb: 130, 122, 116;
+  --text-color: #aaaaaa;
+}
+/* 底色 */
+.lg-backdrop{
+	background-color: rgba(var( --bg-color-rgb),0.9);
+}
+/* 上方控制列 */
+.lg-toolbar{
+	background: rgba(var( --bg-color-rgb),0.8);
+	transition: .2s;
+}
+.lg-toolbar:hover{
+	background: rgba(var( --bg-color-rgb),0.8);
+}
+/* 控制列 頁數、icon */
+.lg-toolbar .lg-icon,
+#lg-counter{
+	color: var(--text-color);
+}
+.lg-toolbar .lg-icon:hover,
+#lg-counter:hover{
+	color: var(--main-color);
+}
+/* 左右控制按鈕*/
+.lg-actions .lg-next,
+.lg-actions .lg-prev{
+	color: #fff;
+	background-color: rgba(var(--subcolor-rgb),0.5);
+ transition: .2s;
+}
+.lg-actions .lg-next:hover,
+.lg-actions .lg-prev:hover{
+	background-color: var(--main-color);
+}
+/* 下方文字區 */
+.lg-sub-html{
+	color: #fff;
+	background-color: rgba(var(--subcolor-rgb),0.7);
+ transition: .2s;
+ font-size: 20px;
+}
+/* 下方thumb列表 */
+.lg-outer .lg-thumb-outer{
+	background-color: #fff;
+	padding: 0 10px;
+}
+/* thumb列表按鈕 */
+.lg-outer .lg-toogle-thumb{
+	background-color: #FFF;
+	border-radius: 5px 5px 0 0;
+	font-size: 20px;
+ height: 30px;
+ line-height: 20px;
+ padding: 5px 0;
+ right: 10px;
+ top: -30px;
+ width: 35px;
+}
+.lg-outer .lg-toogle-thumb:hover{
+	color: var(--main-color);
+}
+/* thumb列表 items圖focus樣式 */
+.lg-outer .lg-thumb-item.active,
+.lg-outer .lg-thumb-item:hover{
+	border-color: var(--main-color);
+}
+
+/* AutoPlay進度條顏色 */
+.lg-progress-bar{
+ background-color: rgba(var(--subcolor-rgb),0.5);
+}
+.lg-progress-bar .lg-progress{
+ background-color: var(--main-color);
+}

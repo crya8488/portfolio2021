@@ -1,0 +1,1071 @@
+[
+    
+    {
+        "title" : "我來自大肚山・大肚山地方知識平台",
+        "subtitle" : "WEB UI 設計・RWD切版・動態插畫",
+        "folder" : "dadu",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "colorStyle" : "dark",
+        "introText" : "東海大學 USR 團隊與大肚山社區居民協作，透過此平台保存推廣大肚山歷史文化，提升居民的地方認同感、促進社區交流互助。",
+        "webType":[
+            {
+                "imageWeb" : true ,
+                "productWeb" : false,
+                "articleWeb" : true,
+                "webUi" : false,
+                "personalWork" : false
+            }
+        ],
+        "info": [
+            {
+                "time" : "2020 年 8 月 ~ 2021 年 3 月",
+                "work" : "專案管理、網頁設計、前台切版",
+                "designTool" : "Photoshop、Illustrator",
+                "webTool" : "HTML5、Sass切版、jQuery",
+                "url" : "http://dadu3.thu.edu.tw/",
+                "projectStory" : "本案業主為東海大學的 USR 小組，負責推動大肚山的地方創社區生。<br>2018年開始，他們辦理每年一次的『看見大肚山 職人博覽會』，邀請在地擁有特色的職人工匠們到學校裡帶領國中小學生進行工藝體驗，例如：陶藝、茶藝、皮影戲、樂器演奏等等。讓國中國小的學生們藉由這個機會在大肚山這塊土地上扎根，了解未來有各種可能性可以探索！<br>為孩子提供學習資源的同時，也讓大人們深入瞭解大肚山的特色，推動在地商圈與藝術文化的發展。<br><br>以此計畫為基礎，東海大學USR小組開始規劃一個線上平台，紀錄大肚山地方的歷史記憶、生活，並結合線上互動，期待透過大肚山社區與學校的串連，提升在地居民的地方認同、為學生提供豐富的學習資源，也讓非居民深入了解大肚山這塊土地的故事。"
+            }
+        ],
+        "img":[
+            {
+                "fileName" : "main.jpg",
+                "title":"首頁"
+            },
+            {
+                "fileName" : "main2.jpg",
+                "title":"手機版"
+            }
+        ],
+        "detail" :[
+            {
+                "title":"視覺風格",
+                "content" :"以溫暖鄉土風格、大面積手繪感插畫呈現，符合「在地人文推廣」主題，打造「繪本風」網站視覺。",
+                "img" : ""
+            },
+            {
+                "title":"文章介面",
+                "content" :"標題、內文、圖片、影片、附件等資訊，使用者可以將文章分享至社群平台、按讚，會員登入後可收藏文章。",
+                "img" : ""
+            },
+            {
+                "title":"每月精選",
+                "content" :"每月有一個主題關鍵字，顯示有此關鍵字的精選文章。",
+                "img" : ""
+            },
+            {
+                "title":"影像藝廊",
+                "content" :"抓取文章的相簿圖片，隨機顯示，點擊圖片連至該文章觀看。",
+                "img" : ""
+            },
+            {
+                "title":"徵稿活動",
+                "content" :"配合在地學校、商家合作單位，進行圖片、文章、影片徵稿。",
+                "img" : ""
+            },
+            {
+                "title":"線上投稿",
+                "content" :"會員登入後可以投稿，可以儲存草稿再編輯送出，並可查看投稿紀錄。",
+                "img" : ""
+            },
+            {
+                "title":"會員系統",
+                "content" :"會員可以自訂帳號密碼註冊，或使用Google、Facebook會員進行第三方登入。",
+                "img" : ""
+            },
+            {
+                "title":"後台權限設定",
+                "content" :"可設定不同功能權限的管理員群組",
+                "img" : ""
+            },
+            {
+                "title":"後台文章審核功能",
+                "content" :"特約作家於後台撰寫的文章需經管理員審核後才可發佈。",
+                "img" : ""
+            }
+        ],
+        "detailIntroImg":"",
+        "detailIntroWrap":[
+            {
+                "title" : "連續插畫場景，打造網站首頁風格",
+                "content" :"我們希望使用者瀏覽首頁時，就像在閱讀一本關於大肚山的故事書，在詳細閱讀網站內容文章之前，便能有初步的印象與認識。因此首頁整體畫面以由上至下的連續插圖，展現不同的大肚山人文地景，帶領他們進入這個溫暖的地方。",
+                "img" : "intro/index-design.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "cover.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"",
+                "img" : "cover2.jpg"
+            },
+            {
+                "title" : "網站架構 Framework",
+                "content" :"與業主討論網站製作需求，進行網站架構規劃<br>分為文章、精選、投稿、會員、其他頁面，共五大區塊。",
+                "img" : "intro/framework.jpg"
+            },
+            {
+                "title" : "Logo 與 色彩設定",
+                "content" :"我們設計了一組新的Logo，為了符合溫暖風格，整體文字以圓形排列，並使用手寫筆刷設計，打造文字與筆劃大小不一的活潑感。副標使用對話框的方式標示於右上方，左下方加入山丘符號表意及平衡Logo視覺。<br><br>顏色設定：整體以柔和暖色系表現大肚山的紅土青山。<br>以象徵大肚山的紅土紅、青山綠為主要顏色，以向西眺望可見的夕陽橘、大海藍為輔助色。<br>再考量文字對比及可讀性，設定由淺至深四個色階，應用於背景、標題色等，於網站中各個系統介面使用不同顏色主題進行頁面區隔。",
+                "img" : "intro/color.jpg"
+            },
+            {
+                "title" : "ICON 及元件設計",
+                "content" :"使用 AI 、PS 繪製，利用筆觸線條呈現手繪手寫風格，製作網站的 ICON 、按鈕、頁標等元件。",
+                "img" : "intro/icon.jpg"
+            },
+            {
+                "title" : "繪本風網站主視覺",
+                "content" :"由團隊插畫師負責主視覺繪製，一共繪製三張連續式的繪本風格插圖。融入當地特色產物、歷史人文，展現大肚山人文風情、地景樣貌，打造獨特的主視覺。<br>圖片以大尺寸繪製，授權業主運用於線下延伸應用，如發表會的背板大圖輸出、活動印刷品等等。",
+                "img" : "intro/banner.jpg"
+            },
+            {
+                "title" : "CSS Animate 打造生動場景",
+                "content" :"讓首頁不只是靜態繪本，而是一本動起來的故事書。<br>我們在首頁個區塊場景中加入了小動畫，以帶有童趣的方式展現在地的人文風貌特色，讓網站視覺更豐富活潑。<br><br>我們取出主視覺圖中的元素，進行分層與元件拆解，以逐格動畫的方式，製作成一組 6~20 張（依動畫細節決定張數）循環播放的 css 動畫元件（例如下面的圖片）。再於切版時撰寫css animate語法，讓圖片呈現動態，請至網站觀看唷～",
+                "img" : "intro/animate.jpg"
+            },
+            {
+                "title" : "文章發佈系統 Articles",
+                "content" :"以文章記錄地方歷史文化<br>以訊息發佈推廣在地商家及活動",
+                "img" : "intro/article-detail.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"服務流程圖",
+                "img" : "intro/flowchart1.jpg"
+            },
+            {
+                "title" : "線上投稿系統 Submission",
+                "content" :"透過舉辦地方相關徵稿比賽，徵集地方故事、圖文、影像等等。除了促進社區活動交流，參賽者也能在投稿的過程中，加深對於這塊土地的認識！<br>",
+                "img" : "intro/submit-detail.jpg"
+            },
+            {
+                "title" : "",
+                "content" :"服務流程圖",
+                "img" : "intro/flowchart2.jpg"
+            }
+            
+            
+        ]
+        
+    },
+    {
+        "title" : "向日葵兒童牙醫官網",
+        "subtitle" : "WEB UI 設計・RWD切版・後台串接",
+        "folder" : "sunflower",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "colorStyle" : "lighter",
+        "introText" : "舊站翻新 RWD 網站，延續溫暖活潑兒童繪畫風格、提升裝置易用性，為病患與家屬提供清楚明瞭的門診資訊。",
+        "webType":[
+            {
+                "imageWeb" : true ,
+                "productWeb" : false,
+                "articleWeb" : false,
+                "webUi" : false,
+                "personalWork" : false
+            }
+        ],
+        "info": [
+            {
+                "time" : "2020 年 11 月 ~ 2021 年 2 月",
+                "work" : "專案管理、網頁設計、前台切版、後台串接",
+                "designTool" : "Photoshop、Illustrator",
+                "webTool" : "HTML5、Sass切版、jQuery、PHP",
+                "url" : "https://sunflowerkids.com.tw/",
+                "projectStory" : "桃園市的向日葵牙醫診所，於 2021年初搬遷至新址，希望能趁此機會將使用了十多年的網站更新為新的樣貌。<br><br>Table 形式的舊版網站已不符合現今瀏覽需求，非 RWD 的網站也會在 Google 搜尋引擎中越來越不利，因此進行了網站翻新，更新為行動裝置也可輕鬆瀏覽的 RWD 網站，讓來看診的病患家長易於瀏覽。<br><br>我們根據舊版網站的風格，重新繪製了主視覺並進行全站視覺延伸應用；並延續舊站的頁面架構，進行架構與動線調整，新增後台管理功能。"
+
+            }
+        ],
+        "img":[
+            {
+                "fileName" : "main.jpg",
+                "title":""
+            },
+            {
+                "fileName" : "main2.jpg",
+                "title":""
+            }
+        ],
+        "detail" :[
+            {
+                "title":"診所公告",
+                "content" :"顯示於網站首頁",
+                "img" : ""
+            },
+            {
+                "title":"醫生介紹",
+                "content" :"診所醫生的人像圖與相關介紹",
+                "img" : ""
+            },
+            {
+                "title":"環境介紹",
+                "content" :"顯示於網站首頁",
+                "img" : ""
+            },
+            {
+                "title":"門診時間表",
+                "content" :"列示各時段排班醫生，點擊醫生名字可以看醫生介紹",
+                "img" : ""
+            },
+            {
+                "title":"交通與停車資訊",
+                "content" :"詳列診所地圖、停車場位置(嵌入GoogleMap及連結)",
+                "img" : ""
+            },
+            {
+                "title":"看診須知",
+                "content" :"詳列相關注意事項",
+                "img" : ""
+            },
+            {
+                "title":"初診流程",
+                "content" :"",
+                "img" : ""
+            },
+            {
+                "title":"聯絡資訊",
+                "content" :"",
+                "img" : ""
+            },
+            {
+                "title":"治療實例",
+                "content" :"",
+                "img" : ""
+            }
+        ],
+        "detailIntroImg":"",
+        "detailIntroWrap":""
+    },
+    {
+        "title" : "強暉企業官網",
+        "subtitle" : "WEB UI 設計・RWD切版・產品圖後製",
+        "folder" : "johnwell",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "colorStyle" : "lighter",
+        "introText" : "以現代風格賦予傳統產業全新風貌，透過線上產品資訊展示與詢價功能，改善人力訂購流程、拓展網路客戶群。",
+        "webType":[
+            {
+                "imageWeb" : true ,
+                "productWeb" : false,
+                "articleWeb" : false,
+                "webUi" : false,
+                "personalWork" : false
+            }
+        ],
+        "info": [
+            {
+                "time" : "2019 年 8 月 ~ 2019 年 12 月",
+                "work" : "專案管理、網頁設計、前台切版",
+                "designTool" : "Photoshop、Illustrator",
+                "webTool" : "HTML5、Sass切版、jQuery",
+                "url" : "https://www.johnwell.com.tw/",
+                "projectStory" : "主要販售管路標示貼紙系統、空調系統配件的強暉企業，舊版網站已不敷使用，希望能更新為 RWD 網站，為傳統產業帶來新的氣象，改善線上產品介面與詢價流程，並拓展線上顧客群。"
+            }
+        ],
+        "img":[
+            {
+                "fileName" : "main.jpg",
+                "title":""
+            },
+            {
+                "fileName" : "main2.jpg",
+                "title":""
+            }
+        ],
+        "detail" :[
+            {
+                "title":"產品特色展示",
+                "content" :"於首頁圖文並茂搭配動態，展示企業形象與產品特色，幫助顧客了解強暉產品的優點。"
+            },
+            {
+                "title":"產品介紹說明",
+                "content" :"取代傳統紙本型錄，依產品性質以三層分類列示，提供顧客清楚明瞭的產品規格說明。網站後台依規格輸入欄位，管理人員可以輕鬆上架。"
+            },
+            {
+                "title":"線上詢價功能",
+                "content" :"顧客可以將產品加入詢價車，送出詢價表單後取得報價再進行訂購。取代傳統以電話、紙本詢問再謄寫報價單的流程，提高業務溝通效率。"
+            },
+            {
+                "title":"企業介紹",
+                "content" :"企業理念與故事簡介，並列示產品專利與測試報告書，提高顧客對於企業及產品的信賴度。"
+            },
+            {
+                "title":"聯絡資訊",
+                "content" :"詳列公司地圖與聯絡方式，以及線上聯繫表單。"
+            }
+        ],
+        "detailIntroImg":"",
+        "detailIntroWrap":""
+    },
+    {
+        "title" : "環渼節能科技官網",
+        "subtitle" : "多部門官網設計整合・WEB UI 設計・RWD切版",
+        "folder" : "escomaster",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "colorStyle" : "white",
+        "introText" : "照明、地暖通風、空調等部門官網設計製作及整合。線上展示產品規格、系統規劃服務資訊、線上詢價及諮詢服務，以拓展網路客群。",
+        "webType":[
+            {
+                "imageWeb" : true ,
+                "productWeb" : true,
+                "articleWeb" : false,
+                "webUi" : false,
+                "personalWork" : false
+            }
+        ],
+        "info": [
+            {
+                "time" : "2018 年 ~ 2020 年",
+                "work" : "專案管理、網頁設計、前台切版",
+                "designTool" : "Photoshop、Illustrator",
+                "webTool" : "HTML5、CSS/Sass切版、jQuery",
+                "url" : "https://www.escomaster.com.tw/",
+                "projectStory" : "正在成長中的環渼節能科技有限公司，從空調系統、LED照明事業、到地暖、通風系統，為顧客提供多樣化的專業服務。<br><br>以往環渼主要以業務人員線下進行顧客開發，因應事業版圖擴張，希望以線上官網展示產品與服務項目，提供顧客清楚及詳細的說明介紹，以拓展客源。並以良好的企業形象及優質產品服務，提高承接大型案件之機會。<br><br>2018 年先製作以 <a href='https://www.escomaster.com.tw/light/' target='_blank'>LED 照明事業部，</a>為主的官網上線，環渼搭配 Google 搜尋廣告，帶來不錯的業務效益。<br>經過一年多接著建置<a href='https://www.escomaster.com.tw/life/' target='_blank'>地暖通風部門官網</a>，並在 2020 年建置<a href='https://www.escomaster.com.tw/hvac/' target='_blank'>空調部一頁式網站</a>、<a href='https://www.escomaster.com.tw/' target='_blank'>官網主頁</a>，整合三個部門官網一同上線。"
+            }
+        ],
+        "img":[
+            {
+                "fileName" : "main.jpg",
+                "title":""
+            },
+            {
+                "fileName" : "main2.jpg",
+                "title":""
+            },
+            {
+                "fileName" : "main3.jpg",
+                "title":""
+            },
+            {
+                "fileName" : "main4.jpg",
+                "title":""
+            },
+            {
+                "fileName" : "main5.jpg",
+                "title":""
+            },
+            {
+                "fileName" : "main6.jpg",
+                "title":"空調"
+            }
+        ],
+        "detail" :[
+            {
+                "title":"產品特色展示",
+                "content" :"於首頁圖文並茂搭配動態，展示企業形象與產品特色，幫助顧客了解產品的優點。"
+            },
+            {
+                "title":"照明產品介紹",
+                "content" :"取代傳統紙本型錄，依產品性質以二層分類列示，提供顧客清楚明瞭的產品規格說明。"
+            },
+            {
+                "title":"服務介紹",
+                "content" :"圖文並茂展示地暖系統、通風系統、空氣淨化機的優點及特色。"
+            },
+            {
+                "title":"線上詢價功能",
+                "content" :"顧客可以將產品加入詢價車，送出詢價表單後取得報價再進行訂購。取代傳統以電話、紙本詢問再謄寫報價單的流程，提高業務溝通效率。"
+            },
+            {
+                "title":"實績案例展示",
+                "content" :"三部門官網接列示實績案例項目與照片，以實際施作照片與相關介紹，提高顧客對環渼產品服務品質的信任。"
+            },
+            {
+                "title":"檢驗認證",
+                "content" :"展示產品檢驗認證報告證書，為顧客提供優良與安全的產品服務。<a href='https://www.escomaster.com.tw/light/certification.php' target='_blank'> > 前往瀏覽</a>"
+            },
+            {
+                "title":"最新消息",
+                "content" :"積極發佈公司與產業相關消息，顧客可藉此了解環渼現況，提升企業信賴度。"
+            },
+            {
+                "title":"企業介紹",
+                "content" :"企業理念與故事簡介，並列示產品專利與測試報告書，提高顧客對於企業及產品的信賴度。"
+            },
+            {
+                "title":"聯絡資訊",
+                "content" :"詳列公司地圖與聯絡方式，以及線上聯繫表單。"
+            }
+        ],
+        "detailIntroImg":"",
+        "detailIntroWrap":""
+    },
+    {
+        "title" : "MED Skin Care",
+        "subtitle" : "WEB UI 設計・RWD切版・產品修圖",
+        "folder" : "med",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "colorStyle" : "dark",
+        "introText" : "以生技、醫美為主題，打造蘭陵國際形象官網，線上展示 MED Skin Care 品牌的醫美術後保養品特色，以及美容業者經銷招募。",
+        "webType":"imageWeb productWeb",
+        "info": [
+            {
+                "time" : "2019 年 12 月 ~ 2020 年 2 月",
+                "work" : "專案管理、網頁設計、前台切版",
+                "designTool" : "Photoshop、Illustrator",
+                "webTool" : "HTML5、Sass切版、jQuery",
+                "url" : "https://www.medskincare.com.tw/",
+                "projectStory" : "Med Skin Care 專注於研發製造醫美術後保養產品，希望透過新官網展現品牌形象特色，展示產品資訊同時招募經銷夥伴。<br><br>我們以生技、醫美、保養品為主要元素，使用品牌主要使用的紅、金色，簡約設計版面搭配細緻線條，呈現高雅風格形象。<br><br>我們也為 Med Skin Care 拍攝全新商品形象照，展現最美的模樣。"
+            }
+        ],
+        "img":[
+            {
+                "fileName" : "main.jpg",
+                "title":""
+            },
+            {
+                "fileName" : "main2.jpg",
+                "title":""
+            }
+        ],
+        "detail" :[
+            {
+                "title":"產品展示",
+                "content" :"依產品性質、用途、成份、系列以二層分類多分類列示，提供顧客清楚明瞭的產品規格與使用說明。"
+            },
+            {
+                "title":"企業形象",
+                "content" :"網站設計以美麗、生技、現代簡約為主要風格，以展示符合 MED SKIN CARE 之企業形象。"
+            },
+            {
+                "title":"客製化介紹",
+                "content" :"蘭陵國際提供產品客製化代工服務，詳述客製化成分與效用等資訊。"
+            },
+            {
+                "title":"經銷招募",
+                "content" :"招募有意銷售或合作的品牌、工作室等等，成為經銷夥伴。"
+            },
+            {
+                "title":"三種語系",
+                "content" :"繁體中文、簡體中文、英文三語系，其中繁體簡體中文使用ＪＳ套件實現繁中自動轉換。"
+            },
+            {
+                "title":"品牌介紹",
+                "content" :"搭配商品形象圖片、生技廠房照片，介紹品牌理念。"
+            },
+            {
+                "title":"最新消息",
+                "content" :"公司介紹下方列示最新消息。"
+            },
+            {
+                "title":"聯絡資訊",
+                "content" :"詳列公司地圖與聯絡方式，以及線上聯繫表單。"
+            }
+        ],
+        "detailIntroImg":"",
+        "detailIntroWrap":""
+    },
+    {
+        "title" : "霧峰林家宮保第園區",
+        "subtitle" : "WEB UI 設計・RWD切版",
+        "folder" : "wufenglins",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "colorStyle" : "white",
+        "introText" : "園區形象與資訊網站，運用線上系統提供預約參觀或場地租借等功能，並販售文創商品。",
+        "webType":[
+            {
+                "imageWeb" : true ,
+                "productWeb" : true,
+                "articleWeb" : false,
+                "webUi" : false,
+                "personalWork" : false
+            }
+        ],
+        "info": [
+            {
+                "time" : "2018 年 08 月 ~ 2019 年 5 月",
+                "work" : "專案管理、網頁設計、前台切版",
+                "designTool" : "Photoshop、Illustrator",
+                "webTool" : "HTML5、CSS 切版、jQuery",
+                "url" : "https://www.wufenglins.com.tw/",
+                "projectStory" : "位於台中霧峰的「霧峰林家」，保留了台灣清代傳統建築宅邸，是全台最完整龐大且最精緻的建築群落。<br><br>2018年開始進行新版官網設計製作，除了園區資訊與介紹之外，網站還有完整的參觀導覽預約系統、場地租借系統、線上商店、會員系統等等，提供園方便利的後台管理系統。"
+                
+            }
+        ],
+        "img":[
+            {
+                "fileName" : "main.jpg",
+                "title":""
+            },
+            {
+                "fileName" : "main2.jpg",
+                "title":""
+            }
+        ],
+        "detail" :[
+            {
+                "title":"園區介紹",
+                "content" :"園區歷史文化介紹資訊，幫助使用者了解霧峰林家的背景故事。"
+            },
+            {
+                "title":"參觀資訊",
+                "content" :"詳列園區參觀資訊、交通導覽，並提供周邊景點介紹，讓遊客可以參考安排一日遊行程。印象導覽以相簿形式展示園區風景。"
+            },
+            {
+                "title":"預約系統",
+                "content" :"分為參觀預約、場地預約，提供客人線上選擇日期與時段，填寫資料後進行預約。後台可以導出預約資料，協助園方更容易管理預約。"
+            },
+            {
+                "title":"活動訊息",
+                "content" :"最新消息以公告園區消息；活動花絮以相本形式上傳活動紀錄相片。"
+            },
+            {
+                "title":"典藏文章",
+                "content" :"介紹霧峰林家園區的典藏文物。"
+            },
+            {
+                "title":"線上商店",
+                "content" :"販售文創商品。"
+            },
+            {
+                "title":"會員系統",
+                "content" :"可使用 Google、Facebook 會員登入，登入後即可購買商品、使用預約系統。"
+            },
+            {
+                "title":"常見問題",
+                "content" :"關於園區問題"
+            },
+            {
+                "title":"聯絡資訊",
+                "content" :"詳列公司地圖與聯絡方式，以及線上聯繫表單。"
+            }
+        ],
+        "detailIntroImg":[
+            "intro/pic1.jpg","intro/pic2.jpg","intro/pic3.jpg","intro/pic4.jpg","intro/pic5.jpg","intro/pic6.jpg","intro/pic7.jpg","intro/pic8.jpg","intro/pic9.jpg"
+        ],
+        "detailIntroWrap":""
+    },
+    {
+        "title" : "鄭杏泰生物科技官網",
+        "subtitle" : "WEB UI 設計・RWD切版",
+        "folder" : "cstmed",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "colorStyle" : "dark",
+        "introText" : "承襲傳統中藥藥方，發展現代製藥技術，以現代版面與中藥材等傳統視覺素材揉合，展現新的風貌。",
+        "webType":[
+            {
+                "imageWeb" : true ,
+                "productWeb" : true,
+                "articleWeb" : false,
+                "webUi" : false,
+                "personalWork" : false
+            }
+        ],
+        "info": [
+            {
+                "time" : "2019 年 8 月 ~ 2020 年 3 月",
+                "work" : "專案管理、網頁設計、前台切版",
+                "designTool" : "Photoshop、Illustrator",
+                "webTool" : "HTML5、Sass切版、jQuery",
+                "url" : "https://www.cstmed.com.tw/",
+                "projectStory" : "鄭杏泰生物科技以「救肺散」、「胃達樂」等藥品為主要產品，為了改善舊版網站無法適應行動裝置介面問題，因此建置此新站。<br><br>為了呈現傳統中藥與現代製藥技術結合的概念，我們以簡約版面設計搭配復古設計素材，展現屬於鄭杏泰的企業形象。<br><br>為了配合法規，官網上僅展示藥品包裝外觀、名稱、字號等資訊，不書寫療效內容。"
+            }
+        ],
+        "img":[
+            {
+                "fileName" : "main.jpg",
+                "title":""
+            },
+            {
+                "fileName" : "main2.jpg",
+                "title":""
+            }
+        ],
+        "detail" :[
+            {
+                "title":"企業形象",
+                "content" :"承襲傳統中藥藥方，發展現代製藥技術，以現代版面與中藥材等傳統視覺素材揉合，展現新的風貌。"
+            },
+            {
+                "title":"商品資訊",
+                "content" :"由於醫藥法規限制，官網上僅展示產品名稱、包裝照片、容量等基本資訊，不書寫詳細內容與療效。"
+            },
+            {
+                "title":"廣告海報",
+                "content" :"首頁展示通過核可之廣告海報，點擊前往該商品頁面，由於醫藥法規有相關限制，需定時更新。"
+            },
+            {
+                "title":"最新消息",
+                "content" :"品牌資訊與公告。"
+            },
+            {
+                "title":"聯絡資訊",
+                "content" :"公司聯絡資料與線上聯絡表單。"
+            }
+        ],
+        "detailIntroImg":"",
+        "detailIntroWrap":""
+    },
+    {
+        "title" : "詠基建設官網",
+        "subtitle" : "WEB UI 設計・RWD切版",
+        "folder" : "yc",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "introText" : "詠基建設多年來堅持打造高品質住宅，以新官網展現高雅形象，新案展示與預約看屋、線上社區公告與報修系統等功能。",
+        "colorStyle" : "dark",
+        "webType":[
+            {
+                "imageWeb" : true ,
+                "productWeb" : true,
+                "articleWeb" : false,
+                "webUi" : false,
+                "personalWork" : false
+            }
+        ],
+        "info": [
+            {
+                "time" : "2018 年 12 月 ~ 2019 年 2 月",
+                "work" : "專案管理、網頁設計、前台切版",
+                "designTool" : "Photoshop、Illustrator",
+                "webTool" : "HTML5、Sass切版、jQuery",
+                "url" : "https://www.yc2353066.com.tw/",
+                "projectStory" : "立基於南投縣草屯鎮的詠基建設公司，以高品質工法與建材打造優質別墅住宅，榮獲多座國家建築金獎，期待能以新的官網展現詠基高雅面貌。"
+            }
+        ],
+        "img":[
+            {
+                "fileName" : "main.jpg",
+                "title":""
+            },
+            {
+                "fileName" : "main2.jpg",
+                "title":""
+            }
+        ],
+        "detail" :[
+            {
+                "title":"企業形象",
+                "content" :"網站以深棕、雅金、純白三色，搭配線條的運用，展現詠基高雅奢華之感。"
+            },
+            {
+                "title":"新案介紹",
+                "content" :"展示新建案照片、文案、位置資訊等。由業主自行新增相關圖文資訊。"
+            },
+            {
+                "title":"預約賞屋",
+                "content" :"使用者填寫線上表單，選擇建案、賞屋日期日期與時段，系統自動發信通知建案負責業務人進行聯繫。"
+            },
+            {
+                "title":"詠基工學",
+                "content" :"展示詠基高品質的建築施工與材料標準，幫助使用者了解他們是如何用心的建造每一棟房屋。"
+            },
+            {
+                "title":"最新消息",
+                "content" :"除了建案公告，也展示深耕地方的相關活動、公益資訊等等。"
+            },
+            {
+                "title":"經典作品",
+                "content" :"展示詠基超過25年來建造的每一項建案。"
+            },
+            {
+                "title":"聯絡資訊",
+                "content" :"詠基建設公司與接待所位置與聯絡方式等資訊。"
+            }
+            
+        ],
+        "detailIntroImg":"",
+        "detailIntroWrap":""
+    },
+    {
+        "title" : "Bamboo'f 天然植物纖維",
+        "subtitle" : "Logo設計・WEB UI 設計・RWD切版",
+        "folder" : "bamboof",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "colorStyle" : "lighter",
+        "introText" : "介紹天然植物纖維製品的特色，依據產品類別展示照片與規格，吸引線上客群前來了解與詢價。",
+        "webType":[
+            {
+                "imageWeb" : true ,
+                "productWeb" : true,
+                "articleWeb" : false,
+                "webUi" : false,
+                "personalWork" : false
+            }
+        ],
+        "info": [
+            {
+                "time" : "2020 年",
+                "work" : "Logo設計、專案管理、網頁設計、後台串接",
+                "designTool" : "Photoshop、Illustrator",
+                "webTool" : "HTML5、Sass切版、jQuery",
+                "url" : "https://bamboo-fiber.cc/",
+                "projectStory" : "業主宸陽國際 2019 年起以環保可完全自然分解的「<a href ='https://www.sugon.com.tw/' target='_blank'>竹纖維吸管品牌——SUGON</a>」打穩企業根基，擁有許多國內外客戶，在2020年開始發展吸管以外的製品及容器，打造新品牌「bamboo'f」。"
+            }
+        ],
+        "img":[
+            {
+                "fileName" : "main.jpg",
+                "title":""
+            },
+            {
+                "fileName" : "main2.jpg",
+                "title":""
+            }
+        ],
+        "detail" :[
+            {
+                "title":"產品展示",
+                "content" :"依產品用途，有瓶罐、杯碗盤、餐具、餐盒、吸管、客製化產品等六大項分類，展示產品實拍照片與規格。"
+            },
+            {
+                "title":"線上洽詢",
+                "content" :"顧客可以使用線上表單洽談產品購買事宜。。"
+            },
+            {
+                "title":"最新消息",
+                "content" :"發佈品牌消息、環保產品相關資訊與新聞報導等。"
+            },
+            {
+                "title":"檢驗報告",
+                "content" :"列示原料的各大檢驗報告書，使用者安心購買。"
+            },
+            {
+                "title":"合作商家",
+                "content" :"列示 Bamboo'f 的企業客戶或合作夥伴。"
+            }
+        ],
+        "detailIntroImg":"",
+        "detailIntroWrap":""
+    },
+    {
+        "title" : "華騰室內設計官網",
+        "subtitle" : "WEB UI 設計・RWD切版・SEO優化",
+        "folder" : "whatdesign",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "colorStyle" : "white",
+        "introText" : "品牌形象與服務介紹，展示豐富的辦公室室內設計作品，吸引線上客群前來了解與詢價。",
+        "webType":[
+            {
+                "imageWeb" : true ,
+                "productWeb" : false,
+                "articleWeb" : false,
+                "webUi" : false,
+                "personalWork" : false
+            }
+        ],
+        "info": [
+            {
+                "time" : "2020 年 4 月 ~ 2020 年 5 月",
+                "work" : "專案管理、網頁設計、前台切版",
+                "designTool" : "Photoshop、Illustrator",
+                "webTool" : "HTML5、Sass切版、jQuery",
+                "url" : "https://www.what-space.com/",
+                "projectStory" : "「一支筆 創造無限可能」——以辦公室室內設計、空間規劃整合服務為主要業務的華騰設計公司，希望一個以黑白色調為主的官網，展示設計作品與服務內容，以拓展線上客戶群。"
+            }
+        ],
+        "img":[
+            {
+                "fileName" : "main.jpg",
+                "title":""
+            },
+            {
+                "fileName" : "main2.jpg",
+                "title":""
+            }
+        ],
+        "detail" :[
+            {
+                "title":"理念展示",
+                "content" :"首頁入口我們以「鉛筆繪製設計圖」意象的動畫破題，展示老闆的理念：「一支筆 創造無限可能」。"
+            },
+            {
+                "title":"服務項目",
+                "content" :"我們將華騰提供的服務與設計施工流程內容，彙整分類後加以潤飾，以簡單明瞭的圖文並茂方式呈現，幫助客戶迅速理解內容，找到他需要的服務。"
+            },
+            {
+                "title":"作品案例",
+                "content" :"將作品分為玄關、辦公區、會議室、主管辦公室等四大分類，列示現場照片以展現華騰的專業及豐富的經驗，提供客戶作為辦公室空間參考。"
+            },
+            {
+                "title":"聯繫資訊",
+                "content" :"每一頁都有詳細的聯繫資訊，幫助客戶能輕鬆的與華騰聯絡詢價。"
+            }
+        ],
+        "detailIntroImg":"",
+        "detailIntroWrap":""
+    },
+    {
+        "title" : "麗嬰房童織集粹・介面設計",
+        "subtitle" : "WEB UI 設計",
+        "folder" : "textile",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "introText" : "textile",
+        "colorStyle" : "dark",
+        "webType":[
+            {
+                "imageWeb" : true ,
+                "productWeb" : false,
+                "articleWeb" : false,
+                "webUi" : true,
+                "personalWork" : false
+            }
+        ],
+        "info": [
+            {
+                "time" : "2020 年",
+                "work" : "專案管理、網頁設計",
+                "designTool" : "Photoshop、Illustrator",
+                "webTool" : "NONE",
+                "url" : "",
+                "projectStory" : "麗嬰房的旗下品牌網站「童織集粹」起源於 —— 藍采如女士 20 年來鍾情於中國兒童織品之收集與整理，於2008年成立「嬰童織品集粹」藝廊，除了將收藏與同好分享外，亦期許能為傳統技藝的保存盡心力。<br><br>本網站主要為介紹這些收藏品。"
+            }
+        ],
+        "img":[
+            {
+                "fileName" : "main.jpg",
+                "title":""
+            },
+            {
+                "fileName" : "main2.jpg",
+                "title":""
+            }
+        ],
+        "detail" :[
+            {
+                "title":"典藏故事",
+                "content" :"「童織集粹」起源故事介紹"
+            },
+            {
+                "title":"集粹藏家",
+                "content" :"麗嬰房的兩位收藏家介紹"
+            },
+            {
+                "title":"童織典藏",
+                "content" :"依物件類別分為：「背兒帶」、「童帽」、「圍兜」、「童鞋」、「童衣」五大分類，展示收藏品的照片與故事。"
+            },
+            {
+                "title":"媒體報導",
+                "content" :"列示國內外新聞媒體的相關報導。"
+            }
+        ],
+        "detailIntroImg":"",
+        "detailIntroWrap":""
+    },
+    {
+        "title" : "慕樂牙醫官網・介面設計",
+        "subtitle" : "品牌設計・WEB UI 設計",
+        "folder" : "mldental",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "introText" : "",
+        "colorStyle" : "dark",
+        "webType":[
+            {
+                "imageWeb" : true ,
+                "productWeb" : false,
+                "articleWeb" : false,
+                "webUi" : true,
+                "personalWork" : false
+            }
+        ],
+        "info": [
+            {
+                "time" : "2018 年",
+                "work" : "專案管理、網頁設計",
+                "designTool" : "Photoshop、Illustrator",
+                "webTool" : "NONE",
+                "url" : "",
+                "projectStory" : ""
+            }
+        ],
+        "img":[
+            {
+                "fileName" : "main.jpg",
+                "title":""
+            },
+            {
+                "fileName" : "main2.jpg",
+                "title":""
+            }
+        ],
+        "detail" :[
+            {
+                "title":"",
+                "content" :""
+            }
+        ],
+        "detailIntroImg":["intro/pic1.jpg","intro/pic2.jpg","intro/pic3.jpg","intro/pic4.jpg"],
+        "detailIntroWrap":""
+    },
+    {
+        "title" : "曙光寵物餐食・介面設計",
+        "subtitle" : "品牌設計・WEB UI 設計",
+        "folder" : "spring-pet",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "introText" : "",
+        "colorStyle" : "lighter",
+        "webType":[
+            {
+                "imageWeb" : true ,
+                "productWeb" : true,
+                "articleWeb" : false,
+                "webUi" : true,
+                "personalWork" : false
+            }
+        ],
+        "info": [
+            {
+                "time" : "2018 年",
+                "work" : "網頁視覺設計",
+                "designTool" : "Photoshop、Illustrator",
+                "webTool" : "NONE",
+                "url" : "",
+                "projectStory" : "曙光寵物餐食業主希望跳脫一般寵物糧的風格，不放真實貓狗的照片，因此我們以插畫、水彩風格主題進行網站設計，以天然、自然的感覺展示呈現展示原料特色介紹、產品資訊。"
+            }
+        ],
+        "img":[
+            {
+                "fileName" : "main.jpg",
+                "title":""
+            },
+            {
+                "fileName" : "main2.jpg",
+                "title":""
+            }
+        ],
+        "detail" :[
+            {
+                "title":"產品介紹",
+                "content" :""
+            },
+            {
+                "title":"原料介紹",
+                "content" :""
+            },
+            {
+                "title":"最新消息",
+                "content" :""
+            },
+            {
+                "title":"聯絡資訊",
+                "content" :""
+            }
+        ],
+        "detailIntroImg":["intro/pic1.jpg","intro/pic2.jpg","intro/pic3.jpg","intro/index.jpeg","intro/product.jpg"],
+        "detailIntroWrap":""
+    },
+    {
+        "title" : "Womenhouse・介面設計",
+        "subtitle" : "品牌設計・WEB UI 設計",
+        "folder" : "womenhouse",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "introText" : "",
+        "colorStyle" : "white",
+        "webType":[
+            {
+                "imageWeb" : true ,
+                "productWeb" : false,
+                "articleWeb" : true,
+                "webUi" : true,
+                "personalWork" : false
+            }
+        ],
+        "info": [
+            {
+                "time" : "2017 年",
+                "work" : "Logo設計・網頁視覺設計",
+                "designTool" : "Photoshop、Illustrator",
+                "webTool" : "NONE",
+                "url" : "",
+                "projectStory" : ""
+            }
+        ],
+        "img":[
+            {
+                "fileName" : "main.jpg",
+                "title":""
+            },
+            {
+                "fileName" : "main2.jpg",
+                "title":""
+            },
+            {
+                "fileName" : "main3.jpg",
+                "title":""
+            }
+        ],
+        "detail" :[
+            {
+                "title":"",
+                "content" :""
+            }
+        ],
+        "detailIntroImg":[
+            "intro/pic1.jpg",
+            "intro/pic2.jpg",
+            "intro/pic3.jpg",
+            "intro/pic4.jpg"
+        ],
+        "detailIntroWrap":""
+    },
+    {
+        "title" : "入境大廳・介面設計",
+        "subtitle" : "品牌設計・WEB UI 設計",
+        "folder" : "arrival",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "introText" : "",
+        "colorStyle" : "lighter",
+        "webType":[
+            {
+                "imageWeb" : true ,
+                "productWeb" : false,
+                "articleWeb" : true,
+                "webUi" : true,
+                "personalWork" : false
+            }
+        ],
+        "info": [
+            {
+                "time" : "2018 年",
+                "work" : "Logo設計、網頁視覺設計",
+                "designTool" : "Photoshop、Illustrator",
+                "webTool" : "NONE",
+                "url" : "",
+                "projectStory" : ""
+            }
+        ],
+        "img":[
+            {
+                "fileName" : "main.jpg",
+                "title":""
+            },
+            {
+                "fileName" : "main2.jpg",
+                "title":""
+            }
+        ],
+        "detail" :[
+            {
+                "title":"",
+                "content" :""
+            }
+        ],
+        "detailIntroImg":[
+            "intro/pic1.jpg",
+            "intro/pic2.jpg",
+            "intro/pic3.jpg",
+            "intro/pic4.jpg",
+            "intro/pic5.jpg",
+            "intro/pic6.jpg",
+            "intro/pic7.jpg"
+        ],
+        "detailIntroWrap":""
+    }
+
+
+]

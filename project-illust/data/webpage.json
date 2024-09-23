@@ -1,0 +1,33 @@
+[
+    {
+       "title" : "主頁",
+       "titleEN" : "TOP",
+       "link" : "index.html"
+    },
+    {
+        "title" : "網頁設計專案",
+        "titleEN" : "Web Projects",
+        "link" : "project-web.html"
+    },
+    {
+        "title" : "APP 介面設計",
+        "titleEN" : "App UI Design",
+        "link" : "project-app.html"
+    },
+    {
+        "title" : "品牌與平面設計",
+        "titleEN" : "Branding & Graphic",
+        "link" : "project-design.html"
+    },
+    {
+        "title" : "關於我",
+        "titleEN" : "About",
+        "link" : "about.html"
+    },
+    {
+        "title" : "聯繫",
+        "titleEN" : "Contact",
+        "link" : "about.html#contact"
+    }
+
+]

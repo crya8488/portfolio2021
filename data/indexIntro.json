@@ -1,0 +1,44 @@
+[
+    {
+        "name" : "",
+        "id" : "index-skills",
+        "titleCN" : "專業能力",
+        "titleEN" : "Skills",
+        "intro" : ""
+    },
+
+    {
+        "name" : "web",
+        "id" : "index-webproject",
+        "titleCN" : "網頁設計專案",
+        "titleEN" : "Web Projects",
+        "intro" : "網站企劃、介面設計、RWD 前台切版<br>為客戶打造風格性客製化品牌網站"
+    },
+
+    {
+        "name" : "app",
+        "id" : "index-appui",
+        "titleCN" : "應用程式介面設計",
+        "titleEN" : "App UI",
+        "intro" : " 使用 Figma 進行介面設計、原型製作"
+    },
+
+    {
+        "name" : "design",
+        "id" : "index-design",
+        "titleCN" : "品牌與平面設計",
+        "titleEN" : "Branding & Graphic",
+        "intro" : "品牌企劃、Logo、CIS設計、廣告設計"
+    },
+
+    {
+        "name" : "illustration",
+        "id" : "index-illustration",
+        "titleCN" : "插畫繪圖",
+        "titleEN" : "Illustration",
+        "intro" : "插畫繪圖作品及相關設計專案應用"
+    }
+      
+
+
+]

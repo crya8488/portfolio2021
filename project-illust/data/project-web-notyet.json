@@ -1,0 +1,187 @@
+[
+    
+    {
+        "hide" : "hide",
+        "title" : "狸長辦公室官網",
+        "subtitle" : "WEB UI 設計・RWD切版",
+        "folder" : "laiphaute",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "colorStyle" : "lighter",
+        "introText" : "SIDE PROJECT・自媒體品牌設計與網站製作",
+        "webType":[
+            {
+                "imageWeb" : true ,
+                "productWeb" : false,
+                "articleWeb" : false,
+                "webUi" : false,
+                "personalWork" : true
+            }
+        ],
+        "info": [
+            {
+                "time" : "2020 年 11 月 ~ 2021 年 2 月",
+                "work" : "專案管理、網頁設計、前台切版",
+                "designTool" : "Photoshop、Illustrator",
+                "webTool" : "HTML5、Sass切版、jQuery",
+                "url" : "https://wanjinluo.com/web/laiphaute-pig/",
+                "projectStory" : ""
+            }
+        ],
+        "img":[
+            {
+                "fileName" : "cover-main.png",
+                "title":""
+            },
+            {
+                "fileName" : "cover-main2.png",
+                "title":""
+            }
+        ],
+        "detail" :[
+            {
+                "title":"",
+                "content" :""
+            }
+        ],
+        "detailIntroWrap":""
+    },
+    {
+        "hide" : "hide",
+        "title" : "新春時事大挑戰！你是什麼豬？",
+        "subtitle" : "遊戲企劃・WEB UI 設計・RWD切版",
+        "folder" : "pig",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "colorStyle" : "lighter",
+        "introText" : "SIDE PROJECT・測驗小遊戲",
+        "webType":[
+            {
+                "imageWeb" : true ,
+                "productWeb" : false,
+                "articleWeb" : false,
+                "webUi" : false,
+                "personalWork" : true
+            }
+        ],
+        "info": [
+            {
+                "time" : "2020 年 11 月 ~ 2021 年 2 月",
+                "work" : "專案管理、網頁設計、前台切版",
+                "designTool" : "Photoshop、Illustrator",
+                "webTool" : "HTML5、Sass切版、jQuery",
+                "url" : "https://wanjinluo.com/web/laiphaute-pig/",
+                "projectStory" : ""
+            }
+        ],
+        "img":[
+            {
+                "fileName" : "cover-main.png",
+                "title":""
+            },
+            {
+                "fileName" : "cover-main2.png",
+                "title":""
+            }
+        ],
+        "detail" :[
+            {
+                "title":"",
+                "content" :""
+            }
+        ],
+        "detailIntroWrap":""
+    },
+    {
+        "hide" : "hide",
+        "title" : "無法送達的情書",
+        "subtitle" : "WEB UI 設計・RWD切版",
+        "folder" : "loveletter",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "colorStyle" : "lighter",
+        "introText" : "SIDE PROJECT・以線上互動活動為開端，講述關於臺灣的轉型正義，那段我們都不該遺忘的歷史。",
+        "webType":[
+            {
+                "imageWeb" : true ,
+                "productWeb" : false,
+                "articleWeb" : false,
+                "webUi" : false,
+                "personalWork" : true
+            }
+        ],
+        "info": [
+            {
+                "time" : "2019 年",
+                "work" : "網頁設計、前台切版",
+                "designTool" : "Photoshop",
+                "webTool" : "HTML5、CSS 切版、jQuery",
+                "url" : "https://wanjinluo.com/web/laiphaute-loveletter/",
+                "projectStory" : "你聽過「轉型正義」一詞嗎？轉型正義並非只討論過去威權體制的對與錯，更重要的是使我們擁有了解過去那些感情、那些信念的機會——在那個時空中，許多人確實冒險過、經歷過。 不見得要討論民族大義，但想去珍惜那一段段、活生生的生命軌跡。因此我們參考了《無法送達的遺書》與其他文獻資料於下方呈現，希望能藉由這故事，訴說臺灣過去的這段歷史。"
+            }
+        ],
+        "img":[
+            {
+                "fileName" : "cover-main.png",
+                "title":""
+            },
+            {
+                "fileName" : "cover-main2.png",
+                "title":""
+            }
+        ],
+        "detail" :[
+            {
+                "title":"",
+                "content" :""
+            }
+        ],
+        "detailIntroWrap":""
+    },
+    {
+        "hide" : "hide",
+        "title" : "2020 中部漫聯同樂會活動紀錄網",
+        "subtitle" : "WEB UI 設計・RWD切版",
+        "folder" : "2020tccc",
+        "coverImage1" : "",
+        "coverImage2" : "",
+        "colorStyle" : "dark",
+        "introText" : "SIDE PROJECT・高中社團活動紀錄網站",
+        "webType":[
+            {
+                "imageWeb" : true ,
+                "productWeb" : false,
+                "articleWeb" : false,
+                "webUi" : false,
+                "personalWork" : true
+            }
+        ],
+        "info": [
+            {
+                "time" : "2020 年 11 月 ~ 2021 年 2 月",
+                "work" : "專案管理、網頁設計、前台切版",
+                "designTool" : "Photoshop、Illustrator",
+                "webTool" : "HTML5、Sass切版、jQuery",
+                "url" : "https://wanjinluo.com/tc/2020tccc/",
+                "projectStory" : ""
+            }
+        ],
+        "img":[
+            {
+                "fileName" : "cover-main.png",
+                "title":""
+            },
+            {
+                "fileName" : "cover-main2.png",
+                "title":""
+            }
+        ],
+        "detail" :[
+            {
+                "title":"",
+                "content" :""
+            }
+        ],
+        "detailIntroWrap":""
+    }
+]
